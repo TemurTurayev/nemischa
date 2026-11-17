@@ -211,6 +211,34 @@ test.describe('trainer', () => {
     expect(Object.keys((await savedProgress(page)).cards)).toHaveLength(4);
   });
 
+  test('a slow download of another level does not undo newer answers', async ({ page }) => {
+    let releaseA2: () => void = () => {};
+    const a2Held = new Promise<void>((resolve) => {
+      releaseA2 = resolve;
+    });
+    await page.route('**/data/a2.json', async (route) => {
+      await a2Held;
+      await route.continue();
+    });
+    await openTrainer(page, 'level=A1&theme=2&mode=cards');
+    await page.locator('label.pill', { hasText: 'A2' }).click(); // starts the slow download
+    await page.locator('label.pill', { hasText: 'A1' }).click();
+    await expect(page.locator('.stats')).toBeVisible();
+
+    await page.getByRole('button', { name: 'Boshlash' }).click();
+    await page.getByRole('button', { name: 'Javobni koʻrsatish' }).click();
+    await page.getByRole('button', { name: 'Bildim' }).click();
+    await expect(page.locator('[data-role=position]')).toHaveText(`2 / ${SESSION_SIZE}`);
+
+    const arrived = page.waitForResponse('**/data/a2.json');
+    releaseA2();
+    await arrived;
+    await expect(page.locator('[data-role=position]')).toHaveText(`2 / ${SESSION_SIZE}`);
+    await expect(page.locator('[data-view=card]')).toBeVisible();
+    expect(Object.keys((await savedProgress(page)).cards)).toHaveLength(1);
+    await expect(page).toHaveURL(/level=A1/);
+  });
+
   test('broken saved data does not break the page', async ({ page }) => {
     await page.goto('./mashq/');
     await page.evaluate((key) => window.localStorage.setItem(key, '{not json'), STORAGE_KEY);

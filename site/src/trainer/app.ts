@@ -101,7 +101,10 @@ function createStore(root: HTMLElement, live: HTMLElement | null, dataBase: stri
     if (state.levels[level] || downloading.has(level)) return;
     downloading.add(level);
     try {
-      update(withLevel(state, level, await fetchLevel(dataBase, level)));
+      // Await first: `state` must be read after the download, or a slow response
+      // would bring back the state (and progress) from before it started.
+      const data = await fetchLevel(dataBase, level);
+      update(withLevel(state, level, data));
     } catch {
       update(withFailure(state, level));
     } finally {
