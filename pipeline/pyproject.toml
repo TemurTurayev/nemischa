@@ -2,7 +2,8 @@
 name = "nemischa-pipeline"
 version = "0.1.0"
 description = "Builds the open German–Uzbek vocabulary dataset from raw word lists"
-requires-python = ">=3.11"
+# lxml 4.9 (needed by german-nouns) ships no wheels for Python 3.13+.
+requires-python = ">=3.11,<3.13"
 dependencies = ["german-nouns", "genanki"]
 
 [project.scripts]
