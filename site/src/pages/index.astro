@@ -1,0 +1,74 @@
+---
+import Base from '../layouts/Base.astro';
+import { formatCount } from '../lib/format';
+import { href } from '../lib/site';
+import { LEVEL_NAMES, fill, t } from '../lib/uz';
+import { countEntries, getLevels } from '../lib/vocab';
+
+const levels = getLevels();
+const total = levels.reduce((sum, level) => sum + countEntries(level), 0);
+const steps = [
+  { title: t.home.how1Title, text: t.home.how1Text },
+  { title: t.home.how2Title, text: t.home.how2Text },
+  { title: t.home.how3Title, text: t.home.how3Text },
+];
+---
+
+<Base title={t.site.name}>
+  <section class="hero">
+    <h1>{t.home.title}</h1>
+    <p class="lead">{fill(t.home.lead, { count: formatCount(total) })}</p>
+    <div class="btn-row">
+      <a class="btn" href={href('/mashq/')}>{t.home.start}</a>
+      <a class="btn btn-ghost" href="#darajalar">{t.nav.levels}</a>
+    </div>
+  </section>
+
+  <section class="search" data-search data-index={href('/data/index.json')} data-word-base={href('/soz/')}>
+    <label class="muted" for="search-input">{t.home.searchLabel}</label>
+    <input
+      id="search-input"
+      type="search"
+      autocomplete="off"
+      placeholder={t.home.searchPlaceholder}
+      data-empty={t.home.searchEmpty}
+      data-error={t.home.searchError}
+    />
+    <ul class="search-results" aria-live="polite"></ul>
+  </section>
+
+  <h2 id="darajalar">{t.home.levelsTitle}</h2>
+  <ul class="grid">
+    {
+      levels.map((data) => (
+        <li>
+          <a class="card-link" href={href(`/${data.level.toLowerCase()}/`)}>
+            <span class="level-code">{data.level}</span>
+            <span class="card-title">{LEVEL_NAMES[data.level].name}</span>
+            <span class="card-sub">{LEVEL_NAMES[data.level].text}</span>
+            <span class="card-meta">
+              {fill(t.count.words, { n: formatCount(countEntries(data)) })} ·{' '}
+              {fill(t.count.themes, { n: data.themes.length })}
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2>{t.home.howTitle}</h2>
+  <ol class="steps">
+    {
+      steps.map((step) => (
+        <li>
+          <strong>{step.title}</strong>
+          <p class="muted">{step.text}</p>
+        </li>
+      ))
+    }
+  </ol>
+</Base>
+
+<script>
+  import '../client/search';
+</script>

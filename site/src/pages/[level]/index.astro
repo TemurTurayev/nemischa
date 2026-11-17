@@ -1,0 +1,55 @@
+---
+import Crumbs from '../../components/Crumbs.astro';
+import Base from '../../layouts/Base.astro';
+import { formatCount } from '../../lib/format';
+import { href } from '../../lib/site';
+import type { LevelData } from '../../lib/types';
+import { LEVEL_NAMES, fill, t } from '../../lib/uz';
+import { countEntries, getLevels, themeSlug } from '../../lib/vocab';
+
+export function getStaticPaths() {
+  return getLevels().map((data) => ({
+    params: { level: data.level.toLowerCase() },
+    props: { data },
+  }));
+}
+
+interface Props {
+  data: LevelData;
+}
+
+const { data } = Astro.props;
+const { level } = data;
+const words = countEntries(data);
+const title = fill(t.level.title, { level });
+---
+
+<Base
+  title={`${title} — ${LEVEL_NAMES[level].name} | ${t.site.name}`}
+  description={fill(t.level.description, { level, n: formatCount(words) })}
+>
+  <Crumbs trail={[{ label: level }]} />
+  <h1>{title}</h1>
+  <p class="muted">
+    {LEVEL_NAMES[level].name} · {fill(t.count.words, { n: formatCount(words) })} ·{' '}
+    {fill(t.count.themes, { n: data.themes.length })}
+  </p>
+  <div class="btn-row">
+    <a class="btn" href={href(`/mashq/?level=${level}`)}>{fill(t.level.practice, { level })}</a>
+  </div>
+
+  <h2>{t.level.themesTitle}</h2>
+  <ul class="grid">
+    {
+      data.themes.map((theme) => (
+        <li>
+          <a class="card-link" href={href(`/${level.toLowerCase()}/${themeSlug(theme)}/`)}>
+            <span class="card-title">{theme.uz}</span>
+            <span class="card-sub" lang="de">{theme.de}</span>
+            <span class="card-meta">{fill(t.count.words, { n: theme.entries.length })}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

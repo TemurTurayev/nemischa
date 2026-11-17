@@ -1,0 +1,2586 @@
+{
+ "entries": 3763,
+ "duplicates_removed": 1311,
+ "meanings_merged": 320,
+ "nouns": 2044,
+ "article_status": {
+  "verified": 1961,
+  "no-article": 3,
+  "unverified": 80
+ },
+ "plural_status": {
+  "verified": 1534,
+  "from-reference": 19,
+  "no-plural": 437,
+  "unverified": 54
+ },
+ "article_mismatches": [],
+ "plural_mismatches": [],
+ "nouns_without_article": [
+  "Deutschland",
+  "Europa",
+  "Twitter"
+ ],
+ "merged_translations": [
+  {
+   "de": "Frau",
+   "level": "A1",
+   "had": "ayol",
+   "repeat_level": "A1",
+   "repeat_had": "ayol, xotin",
+   "now": "ayol, xotin"
+  },
+  {
+   "de": "Straße",
+   "level": "A1",
+   "had": "koʻcha",
+   "repeat_level": "A1",
+   "repeat_had": "koʻcha, yoʻl",
+   "now": "koʻcha, yoʻl"
+  },
+  {
+   "de": "gehen",
+   "level": "A1",
+   "had": "yurmoq, ketmoq",
+   "repeat_level": "A1",
+   "repeat_had": "bormoq, yurmoq",
+   "now": "yurmoq, ketmoq, bormoq"
+  },
+  {
+   "de": "laufen",
+   "level": "A1",
+   "had": "yugurmoq",
+   "repeat_level": "A1",
+   "repeat_had": "yurmoq, yugurmoq",
+   "now": "yugurmoq, yurmoq"
+  },
+  {
+   "de": "Land",
+   "level": "A1",
+   "had": "mamlakat",
+   "repeat_level": "A1",
+   "repeat_had": "davlat, mamlakat",
+   "now": "mamlakat, davlat"
+  },
+  {
+   "de": "Gleis",
+   "level": "A1",
+   "had": "yoʻl, platforma",
+   "repeat_level": "A1",
+   "repeat_had": "temir yoʻl, platforma",
+   "now": "yoʻl, platforma, temir yoʻl"
+  },
+  {
+   "de": "Bahnsteig",
+   "level": "A1",
+   "had": "platforma",
+   "repeat_level": "A1",
+   "repeat_had": "perron",
+   "now": "platforma, perron"
+  },
+  {
+   "de": "Karte",
+   "level": "A1",
+   "had": "karta, xarita",
+   "repeat_level": "A1",
+   "repeat_had": "menyu",
+   "now": "karta, xarita, menyu"
+  },
+  {
+   "de": "mögen",
+   "level": "A1",
+   "had": "yoqtirmoq",
+   "repeat_level": "A1",
+   "repeat_had": "yoqmoq",
+   "now": "yoqtirmoq, yoqmoq"
+  },
+  {
+   "de": "schmecken",
+   "level": "A1",
+   "had": "taʼmini sezmoq",
+   "repeat_level": "A1",
+   "repeat_had": "mazali boʻlmoq",
+   "now": "taʼmini sezmoq, mazali boʻlmoq"
+  },
+  {
+   "de": "Kaffee",
+   "level": "A1",
+   "had": "kofe",
+   "repeat_level": "A1",
+   "repeat_had": "qahva",
+   "now": "kofe, qahva"
+  },
+  {
+   "de": "Glas",
+   "level": "A1",
+   "had": "banka",
+   "repeat_level": "A1",
+   "repeat_had": "stakan",
+   "now": "banka, stakan"
+  },
+  {
+   "de": "mailen",
+   "level": "A1",
+   "had": "email yozmoq",
+   "repeat_level": "A1",
+   "repeat_had": "email yubormoq",
+   "now": "email yozmoq, email yubormoq"
+  },
+  {
+   "de": "Ausflug",
+   "level": "A1",
+   "had": "ekskursiya",
+   "repeat_level": "A1",
+   "repeat_had": "sayohat",
+   "now": "ekskursiya, sayohat"
+  },
+  {
+   "de": "gern(e)",
+   "level": "A1",
+   "had": "bajonidil",
+   "repeat_level": "A1",
+   "repeat_had": "jon deb",
+   "now": "bajonidil, jon deb"
+  },
+  {
+   "de": "lieber",
+   "level": "A1",
+   "had": "afzal",
+   "repeat_level": "A1",
+   "repeat_had": "afzal koʻrib",
+   "now": "afzal, afzal koʻrib"
+  },
+  {
+   "de": "gehen",
+   "level": "A1",
+   "had": "yurmoq, ketmoq, bormoq",
+   "repeat_level": "A1",
+   "repeat_had": "ishlamoq (asbob haqida)",
+   "now": "yurmoq, ketmoq, bormoq, ishlamoq (asbob haqida)"
+  },
+  {
+   "de": "Wann?",
+   "level": "A1",
+   "had": "qachon",
+   "repeat_level": "A1",
+   "repeat_had": "qachon?",
+   "now": "qachon, qachon?"
+  },
+  {
+   "de": "alle",
+   "level": "A1",
+   "had": "hamma",
+   "repeat_level": "A1",
+   "repeat_had": "hamma, barcha",
+   "now": "hamma, barcha"
+  },
+  {
+   "de": "vor",
+   "level": "A1",
+   "had": "oldin (kam)",
+   "repeat_level": "A1",
+   "repeat_had": "oldida",
+   "now": "oldin (kam), oldida"
+  },
+  {
+   "de": "zwischen",
+   "level": "A1",
+   "had": "orasida",
+   "repeat_level": "A1",
+   "repeat_had": "oʻrtasida",
+   "now": "orasida, oʻrtasida"
+  },
+  {
+   "de": "nach",
+   "level": "A1",
+   "had": "keyin (oʻtdi)",
+   "repeat_level": "A1",
+   "repeat_had": "keyin, oʻtib (soatda)",
+   "now": "keyin (oʻtdi), oʻtib (soatda)"
+  },
+  {
+   "de": "vor",
+   "level": "A1",
+   "had": "oldin (kam), oldida",
+   "repeat_level": "A1",
+   "repeat_had": "oldin, kam (soatda)",
+   "now": "oldin (kam), oldida, kam (soatda)"
+  },
+  {
+   "de": "aus",
+   "level": "A1",
+   "had": "-dan, ichidan",
+   "repeat_level": "A1",
+   "repeat_had": "-dan yasalgan",
+   "now": "-dan, ichidan, -dan yasalgan"
+  },
+  {
+   "de": "Morgen",
+   "level": "A1",
+   "had": "ertalab",
+   "repeat_level": "A2",
+   "repeat_had": "ertalab, tong",
+   "now": "ertalab, tong"
+  },
+  {
+   "de": "Vormittag",
+   "level": "A1",
+   "had": "tushdan oldin",
+   "repeat_level": "A2",
+   "repeat_had": "tushdan oldingi vaqt",
+   "now": "tushdan oldin, tushdan oldingi vaqt"
+  },
+  {
+   "de": "Mittag",
+   "level": "A1",
+   "had": "tush payti",
+   "repeat_level": "A2",
+   "repeat_had": "tush, peshin",
+   "now": "tush payti, tush, peshin"
+  },
+  {
+   "de": "Nachmittag",
+   "level": "A1",
+   "had": "tushdan keyin",
+   "repeat_level": "A2",
+   "repeat_had": "tushdan keyingi vaqt",
+   "now": "tushdan keyin, tushdan keyingi vaqt"
+  },
+  {
+   "de": "Abend",
+   "level": "A1",
+   "had": "kechqurun",
+   "repeat_level": "A2",
+   "repeat_had": "kechqurun, kech",
+   "now": "kechqurun, kech"
+  },
+  {
+   "de": "Uhrzeit",
+   "level": "A1",
+   "had": "soat (vaqt)",
+   "repeat_level": "A2",
+   "repeat_had": "soat, vaqt",
+   "now": "soat (vaqt), vaqt"
+  },
+  {
+   "de": "Termin",
+   "level": "A1",
+   "had": "uchrashuv vaqti",
+   "repeat_level": "A2",
+   "repeat_had": "uchrashuv, qabul vaqti",
+   "now": "uchrashuv vaqti, uchrashuv, qabul vaqti"
+  },
+  {
+   "de": "aufstehen",
+   "level": "A1",
+   "had": "oʻrnidan turmoq",
+   "repeat_level": "A2",
+   "repeat_had": "turmoq (oʻrnidan)",
+   "now": "oʻrnidan turmoq, turmoq (oʻrnidan)"
+  },
+  {
+   "de": "aufhören",
+   "level": "A1",
+   "had": "toʻxtamoq",
+   "repeat_level": "A2",
+   "repeat_had": "toʻxtatmoq, tugatmoq",
+   "now": "toʻxtamoq, toʻxtatmoq, tugatmoq"
+  },
+  {
+   "de": "heißen",
+   "level": "A1",
+   "had": "atalmoq",
+   "repeat_level": "A2",
+   "repeat_had": "ismi ... boʻlmoq",
+   "now": "atalmoq, ismi ... boʻlmoq"
+  },
+  {
+   "de": "pünktlich",
+   "level": "A1",
+   "had": "oʻz vaqtida",
+   "repeat_level": "A2",
+   "repeat_had": "vaqtida keladigan",
+   "now": "oʻz vaqtida, vaqtida keladigan"
+  },
+  {
+   "de": "Bruder",
+   "level": "A1",
+   "had": "aka, uka",
+   "repeat_level": "A2",
+   "repeat_had": "aka yoki uka",
+   "now": "aka, uka, aka yoki uka"
+  },
+  {
+   "de": "Schwester",
+   "level": "A1",
+   "had": "opa, singil",
+   "repeat_level": "A2",
+   "repeat_had": "opa yoki singil",
+   "now": "opa, singil, opa yoki singil"
+  },
+  {
+   "de": "Geschwister",
+   "level": "A1",
+   "had": "aka-uka, opa-singil",
+   "repeat_level": "A2",
+   "repeat_had": "aka-uka, opa-singillar",
+   "now": "aka-uka, opa-singil, opa-singillar"
+  },
+  {
+   "de": "Großvater",
+   "level": "A1",
+   "had": "buva",
+   "repeat_level": "A2",
+   "repeat_had": "bobo",
+   "now": "buva, bobo"
+  },
+  {
+   "de": "Opa",
+   "level": "A1",
+   "had": "buva",
+   "repeat_level": "A2",
+   "repeat_had": "bobo (bobojon)",
+   "now": "buva, bobo (bobojon)"
+  },
+  {
+   "de": "Großeltern",
+   "level": "A1",
+   "had": "buvi-buva",
+   "repeat_level": "A2",
+   "repeat_had": "buvi-bobo",
+   "now": "buvi-buva, buvi-bobo"
+  },
+  {
+   "de": "Freundin",
+   "level": "A1",
+   "had": "dugona, qiz doʻst",
+   "repeat_level": "A2",
+   "repeat_had": "doʻst (qiz doʻst)",
+   "now": "dugona, qiz doʻst, doʻst (qiz doʻst)"
+  },
+  {
+   "de": "Chef",
+   "level": "A1",
+   "had": "boshliq (erkak)",
+   "repeat_level": "A2",
+   "repeat_had": "rahbar, boshliq",
+   "now": "boshliq (erkak), rahbar"
+  },
+  {
+   "de": "Chefin",
+   "level": "A1",
+   "had": "boshliq (ayol)",
+   "repeat_level": "A2",
+   "repeat_had": "rahbar (ayol)",
+   "now": "boshliq (ayol), rahbar (ayol)"
+  },
+  {
+   "de": "Erwachsene",
+   "level": "A1",
+   "had": "katta yoshli odam",
+   "repeat_level": "A2",
+   "repeat_had": "kattalar (voyaga yetgan)",
+   "now": "katta yoshli odam, kattalar (voyaga yetgan)"
+  },
+  {
+   "de": "ledig",
+   "level": "A1",
+   "had": "turmush qurmagan",
+   "repeat_level": "A2",
+   "repeat_had": "turmush qurmagan, boʻydoq",
+   "now": "turmush qurmagan, boʻydoq"
+  },
+  {
+   "de": "alt",
+   "level": "A1",
+   "had": "keksa",
+   "repeat_level": "A2",
+   "repeat_had": "keksa, qari",
+   "now": "keksa, qari"
+  },
+  {
+   "de": "groß",
+   "level": "A1",
+   "had": "katta",
+   "repeat_level": "A2",
+   "repeat_had": "katta, baland",
+   "now": "katta, baland"
+  },
+  {
+   "de": "Arm",
+   "level": "A1",
+   "had": "qoʻl (yelka-bilak)",
+   "repeat_level": "A2",
+   "repeat_had": "qoʻl, bilak",
+   "now": "qoʻl (yelka-bilak), bilak"
+  },
+  {
+   "de": "Hand",
+   "level": "A1",
+   "had": "qoʻl (kaft)",
+   "repeat_level": "A2",
+   "repeat_had": "qoʻl, kaft",
+   "now": "qoʻl (kaft), kaft"
+  },
+  {
+   "de": "Fuß",
+   "level": "A1",
+   "had": "oyoq (panja)",
+   "repeat_level": "A2",
+   "repeat_had": "oyoq panjasi",
+   "now": "oyoq (panja), oyoq panjasi"
+  },
+  {
+   "de": "Ärztin",
+   "level": "A1",
+   "had": "shifokor (ayol)",
+   "repeat_level": "A2",
+   "repeat_had": "ayol shifokor",
+   "now": "shifokor (ayol), ayol shifokor"
+  },
+  {
+   "de": "Zahnarzt",
+   "level": "A1",
+   "had": "tish shifokori (erkak)",
+   "repeat_level": "A2",
+   "repeat_had": "stomatolog",
+   "now": "tish shifokori (erkak), stomatolog"
+  },
+  {
+   "de": "Wein",
+   "level": "A1",
+   "had": "vino",
+   "repeat_level": "A2",
+   "repeat_had": "sharob",
+   "now": "vino, sharob"
+  },
+  {
+   "de": "Durst",
+   "level": "A1",
+   "had": "chanqoq",
+   "repeat_level": "A2",
+   "repeat_had": "chanqoqlik",
+   "now": "chanqoq, chanqoqlik"
+  },
+  {
+   "de": "Speisekarte",
+   "level": "A1",
+   "had": "taomnoma",
+   "repeat_level": "A2",
+   "repeat_had": "menyu",
+   "now": "taomnoma, menyu"
+  },
+  {
+   "de": "schmecken",
+   "level": "A1",
+   "had": "taʼmini sezmoq, mazali boʻlmoq",
+   "repeat_level": "A2",
+   "repeat_had": "yoqmoq",
+   "now": "taʼmini sezmoq, mazali boʻlmoq, yoqmoq"
+  },
+  {
+   "de": "kochen",
+   "level": "A1",
+   "had": "ovqat pishirmoq",
+   "repeat_level": "A2",
+   "repeat_had": "pishirmoq",
+   "now": "ovqat pishirmoq, pishirmoq"
+  },
+  {
+   "de": "Laden",
+   "level": "A1",
+   "had": "doʻkon",
+   "repeat_level": "A2",
+   "repeat_had": "doʻkon, magazin",
+   "now": "doʻkon, magazin"
+  },
+  {
+   "de": "Angebot",
+   "level": "A1",
+   "had": "taklif",
+   "repeat_level": "A2",
+   "repeat_had": "taklif, aksiya",
+   "now": "taklif, aksiya"
+  },
+  {
+   "de": "(sich) anziehen",
+   "level": "A1",
+   "had": "kiyinmoq",
+   "repeat_level": "A2",
+   "repeat_had": "kiymoq (kiyim)",
+   "now": "kiyinmoq, kiymoq (kiyim)"
+  },
+  {
+   "de": "günstig",
+   "level": "A1",
+   "had": "arzon",
+   "repeat_level": "A2",
+   "repeat_had": "arzon, foydali (narx)",
+   "now": "arzon, foydali (narx)"
+  },
+  {
+   "de": "weit",
+   "level": "A1",
+   "had": "uzoq",
+   "repeat_level": "A2",
+   "repeat_had": "keng, boʻsh",
+   "now": "uzoq, keng, boʻsh"
+  },
+  {
+   "de": "Treppe",
+   "level": "A1",
+   "had": "zina",
+   "repeat_level": "A2",
+   "repeat_had": "zina, ustuvor",
+   "now": "zina, ustuvor"
+  },
+  {
+   "de": "Vermieter",
+   "level": "A1",
+   "had": "uy egasi",
+   "repeat_level": "A2",
+   "repeat_had": "uy egasi, ijaraga beruvchi",
+   "now": "uy egasi, ijaraga beruvchi"
+  },
+  {
+   "de": "umziehen",
+   "level": "A1",
+   "had": "koʻchmoq",
+   "repeat_level": "A2",
+   "repeat_had": "koʻchib oʻtmoq",
+   "now": "koʻchmoq, koʻchib oʻtmoq"
+  },
+  {
+   "de": "(sich) waschen",
+   "level": "A1",
+   "had": "yuvinmoq",
+   "repeat_level": "A2",
+   "repeat_had": "yuvmoq",
+   "now": "yuvinmoq, yuvmoq"
+  },
+  {
+   "de": "reparieren",
+   "level": "A1",
+   "had": "taʼmirlamoq",
+   "repeat_level": "A2",
+   "repeat_had": "tuzatmoq",
+   "now": "taʼmirlamoq, tuzatmoq"
+  },
+  {
+   "de": "Bäcker",
+   "level": "A1",
+   "had": "nonvoy (erkak)",
+   "repeat_level": "A2",
+   "repeat_had": "novvoy",
+   "now": "nonvoy (erkak), novvoy"
+  },
+  {
+   "de": "Praktikum",
+   "level": "A1",
+   "had": "amaliyot, stajirovka",
+   "repeat_level": "A2",
+   "repeat_had": "amaliyot / stajirovka",
+   "now": "amaliyot, stajirovka, amaliyot / stajirovka"
+  },
+  {
+   "de": "Aufgabe",
+   "level": "A1",
+   "had": "topshiriq",
+   "repeat_level": "A2",
+   "repeat_had": "vazifa",
+   "now": "topshiriq, vazifa"
+  },
+  {
+   "de": "verdienen",
+   "level": "A1",
+   "had": "ishlab topmoq",
+   "repeat_level": "A2",
+   "repeat_had": "pul topmoq",
+   "now": "ishlab topmoq, pul topmoq"
+  },
+  {
+   "de": "selbstständig",
+   "level": "A1",
+   "had": "mustaqil tadbirkor",
+   "repeat_level": "A2",
+   "repeat_had": "oʻz biznesi bilan shugʻullanuvchi",
+   "now": "mustaqil tadbirkor, oʻz biznesi bilan shugʻullanuvchi"
+  },
+  {
+   "de": "Sport",
+   "level": "A1",
+   "had": "sport",
+   "repeat_level": "A2",
+   "repeat_had": "jismoniy tarbiya",
+   "now": "sport, jismoniy tarbiya"
+  },
+  {
+   "de": "Kino",
+   "level": "A1",
+   "had": "kino",
+   "repeat_level": "A2",
+   "repeat_had": "kinoteatr",
+   "now": "kino, kinoteatr"
+  },
+  {
+   "de": "Party",
+   "level": "A1",
+   "had": "bazm",
+   "repeat_level": "A2",
+   "repeat_had": "kechki maʼraka, ziyofat",
+   "now": "bazm, kechki maʼraka, ziyofat"
+  },
+  {
+   "de": "abfahren",
+   "level": "A1",
+   "had": "joʻnamoq",
+   "repeat_level": "A2",
+   "repeat_had": "joʻnab ketmoq",
+   "now": "joʻnamoq, joʻnab ketmoq"
+  },
+  {
+   "de": "abfliegen",
+   "level": "A1",
+   "had": "uchib joʻnamoq",
+   "repeat_level": "A2",
+   "repeat_had": "parvoz qilib joʻnamoq",
+   "now": "uchib joʻnamoq, parvoz qilib joʻnamoq"
+  },
+  {
+   "de": "übernachten",
+   "level": "A1",
+   "had": "tunamoq",
+   "repeat_level": "A2",
+   "repeat_had": "tunamoq, kechalamoq",
+   "now": "tunamoq, kechalamoq"
+  },
+  {
+   "de": "Reise",
+   "level": "A1",
+   "had": "sayohat",
+   "repeat_level": "A2",
+   "repeat_had": "sayohat, safar",
+   "now": "sayohat, safar"
+  },
+  {
+   "de": "Gepäck",
+   "level": "A1",
+   "had": "yuk, bagaj",
+   "repeat_level": "A2",
+   "repeat_had": "yuk-tosh",
+   "now": "yuk, bagaj, yuk-tosh"
+  },
+  {
+   "de": "Fahrkarte",
+   "level": "A1",
+   "had": "chipta",
+   "repeat_level": "A2",
+   "repeat_had": "yoʻl chiptasi",
+   "now": "chipta, yoʻl chiptasi"
+  },
+  {
+   "de": "Auto",
+   "level": "A1",
+   "had": "mashina",
+   "repeat_level": "A2",
+   "repeat_had": "avtomobil",
+   "now": "mashina, avtomobil"
+  },
+  {
+   "de": "Gleis",
+   "level": "A1",
+   "had": "yoʻl, platforma, temir yoʻl",
+   "repeat_level": "A2",
+   "repeat_had": "yoʻlka (temir yoʻl)",
+   "now": "yoʻl, platforma, temir yoʻl, yoʻlka (temir yoʻl)"
+  },
+  {
+   "de": "Jugendherberge",
+   "level": "A1",
+   "had": "yoshlar yotoqxonasi",
+   "repeat_level": "A2",
+   "repeat_had": "yoshlar turargohi",
+   "now": "yoshlar yotoqxonasi, yoshlar turargohi"
+  },
+  {
+   "de": "Ankunft",
+   "level": "A1",
+   "had": "yetib kelish",
+   "repeat_level": "A2",
+   "repeat_had": "kelish, yetib kelish",
+   "now": "yetib kelish, kelish"
+  },
+  {
+   "de": "Ausland",
+   "level": "A1",
+   "had": "xorij",
+   "repeat_level": "A2",
+   "repeat_had": "chet el",
+   "now": "xorij, chet el"
+  },
+  {
+   "de": "scheinen",
+   "level": "A1",
+   "had": "porlamoq",
+   "repeat_level": "A2",
+   "repeat_had": "porlamoq, charaqlamoq",
+   "now": "porlamoq, charaqlamoq"
+  },
+  {
+   "de": "E-Mail",
+   "level": "A1",
+   "had": "elektron pochta",
+   "repeat_level": "A2",
+   "repeat_had": "elektron xat",
+   "now": "elektron pochta, elektron xat"
+  },
+  {
+   "de": "Anruf",
+   "level": "A1",
+   "had": "telefon qoʻngʻirogʻi",
+   "repeat_level": "A2",
+   "repeat_had": "qoʻngʻiroq",
+   "now": "telefon qoʻngʻirogʻi, qoʻngʻiroq"
+  },
+  {
+   "de": "Anrufbeantworter",
+   "level": "A1",
+   "had": "avtojavob beruvchi",
+   "repeat_level": "A2",
+   "repeat_had": "avtojavobgar",
+   "now": "avtojavob beruvchi, avtojavobgar"
+  },
+  {
+   "de": "Information",
+   "level": "A1",
+   "had": "maʼlumot",
+   "repeat_level": "A2",
+   "repeat_had": "axborot",
+   "now": "maʼlumot, axborot"
+  },
+  {
+   "de": "telefonieren",
+   "level": "A1",
+   "had": "telefon qilmoq",
+   "repeat_level": "A2",
+   "repeat_had": "telefonda gaplashmoq",
+   "now": "telefon qilmoq, telefonda gaplashmoq"
+  },
+  {
+   "de": "surfen",
+   "level": "A1",
+   "had": "internetda yurmoq",
+   "repeat_level": "A2",
+   "repeat_had": "internetda serflamoq",
+   "now": "internetda yurmoq, internetda serflamoq"
+  },
+  {
+   "de": "schicken",
+   "level": "A1",
+   "had": "yubormoq",
+   "repeat_level": "A2",
+   "repeat_had": "joʻnatmoq",
+   "now": "yubormoq, joʻnatmoq"
+  },
+  {
+   "de": "Amt",
+   "level": "A1",
+   "had": "idora, mahkama",
+   "repeat_level": "A2",
+   "repeat_had": "idora, boshqarma",
+   "now": "idora, mahkama, boshqarma"
+  },
+  {
+   "de": "Bäckerei",
+   "level": "A1",
+   "had": "nonvoyxona",
+   "repeat_level": "A2",
+   "repeat_had": "novvoyxona",
+   "now": "nonvoyxona, novvoyxona"
+  },
+  {
+   "de": "Schalter",
+   "level": "A1",
+   "had": "oyna, kassa",
+   "repeat_level": "A2",
+   "repeat_had": "xizmat koʻrsatish oynasi",
+   "now": "oyna, kassa, xizmat koʻrsatish oynasi"
+  },
+  {
+   "de": "Nummer",
+   "level": "A1",
+   "had": "raqam",
+   "repeat_level": "A2",
+   "repeat_had": "raqam, nomer",
+   "now": "raqam, nomer"
+  },
+  {
+   "de": "(sich) anmelden",
+   "level": "A1",
+   "had": "roʻyxatdan oʻtmoq",
+   "repeat_level": "A2",
+   "repeat_had": "roʻyxatdan oʻtkazmoq",
+   "now": "roʻyxatdan oʻtmoq, roʻyxatdan oʻtkazmoq"
+  },
+  {
+   "de": "ruhig",
+   "level": "A1",
+   "had": "tinch",
+   "repeat_level": "A2",
+   "repeat_had": "tinch, sokin",
+   "now": "tinch, sokin"
+  },
+  {
+   "de": "zufrieden",
+   "level": "A1",
+   "had": "mamnun",
+   "repeat_level": "A2",
+   "repeat_had": "mamnun, rozi",
+   "now": "mamnun, rozi"
+  },
+  {
+   "de": "lustig",
+   "level": "A1",
+   "had": "kulgili",
+   "repeat_level": "A2",
+   "repeat_had": "kulgili, hazilkash",
+   "now": "kulgili, hazilkash"
+  },
+  {
+   "de": "Wochenende",
+   "level": "A1",
+   "had": "dam olish kuni",
+   "repeat_level": "A2",
+   "repeat_had": "hafta oxiri, dam olish kunlari",
+   "now": "dam olish kuni, hafta oxiri, dam olish kunlari"
+  },
+  {
+   "de": "September",
+   "level": "A1",
+   "had": "sentabr",
+   "repeat_level": "A2",
+   "repeat_had": "sentyabr",
+   "now": "sentabr, sentyabr"
+  },
+  {
+   "de": "Oktober",
+   "level": "A1",
+   "had": "oktabr",
+   "repeat_level": "A2",
+   "repeat_had": "oktyabr",
+   "now": "oktabr, oktyabr"
+  },
+  {
+   "de": "Uhr",
+   "level": "A1",
+   "had": "soat (asbob)",
+   "repeat_level": "A2",
+   "repeat_had": "soat (asbob); soat (vaqt)",
+   "now": "soat (asbob), soat (asbob); soat (vaqt)"
+  },
+  {
+   "de": "Feiertag",
+   "level": "A1",
+   "had": "bayram kuni",
+   "repeat_level": "A2",
+   "repeat_had": "bayram kuni, dam olish kuni",
+   "now": "bayram kuni, dam olish kuni"
+  },
+  {
+   "de": "beginnen",
+   "level": "A1",
+   "had": "boshlamoq",
+   "repeat_level": "A2",
+   "repeat_had": "boshlanmoq, boshlamoq",
+   "now": "boshlamoq, boshlanmoq"
+  },
+  {
+   "de": "selbstständig",
+   "level": "A1",
+   "had": "mustaqil tadbirkor, oʻz biznesi bilan shugʻullanuvchi",
+   "repeat_level": "B1",
+   "repeat_had": "mustaqil",
+   "now": "mustaqil tadbirkor, oʻz biznesi bilan shugʻullanuvchi, mustaqil"
+  },
+  {
+   "de": "pessimistisch",
+   "level": "A2",
+   "had": "pessimist",
+   "repeat_level": "B1",
+   "repeat_had": "pessimist, umidsiz",
+   "now": "pessimist, umidsiz"
+  },
+  {
+   "de": "heiraten",
+   "level": "A1",
+   "had": "turmush qurmoq",
+   "repeat_level": "B1",
+   "repeat_had": "turmush qurmoq, uylanmoq",
+   "now": "turmush qurmoq, uylanmoq"
+  },
+  {
+   "de": "Termin",
+   "level": "A1",
+   "had": "uchrashuv vaqti, uchrashuv, qabul vaqti",
+   "repeat_level": "B1",
+   "repeat_had": "uchrashuv vaqti, qabul",
+   "now": "uchrashuv vaqti, uchrashuv, qabul vaqti, qabul"
+  },
+  {
+   "de": "Praxis",
+   "level": "A1",
+   "had": "qabulxona",
+   "repeat_level": "B1",
+   "repeat_had": "shifokorlik amaliyoti (klinika)",
+   "now": "qabulxona, shifokorlik amaliyoti (klinika)"
+  },
+  {
+   "de": "überweisen",
+   "level": "A1",
+   "had": "pul oʻtkazmoq",
+   "repeat_level": "B1",
+   "repeat_had": "boshqa shifokorga yoʻnaltirmoq",
+   "now": "pul oʻtkazmoq, boshqa shifokorga yoʻnaltirmoq"
+  },
+  {
+   "de": "Zeugnis",
+   "level": "A2",
+   "had": "tabel",
+   "repeat_level": "B1",
+   "repeat_had": "guvohnoma",
+   "now": "tabel, guvohnoma"
+  },
+  {
+   "de": "Feierabend",
+   "level": "A1",
+   "had": "ish kuni oxiri",
+   "repeat_level": "B1",
+   "repeat_had": "ish kunining tugashi",
+   "now": "ish kuni oxiri, ish kunining tugashi"
+  },
+  {
+   "de": "Studium",
+   "level": "A1",
+   "had": "oʻqish, taʼlim",
+   "repeat_level": "B1",
+   "repeat_had": "oliy taʼlim (universitetda oʻqish)",
+   "now": "oʻqish, taʼlim, oliy taʼlim (universitetda oʻqish)"
+  },
+  {
+   "de": "sich bewerben",
+   "level": "A2",
+   "had": "ishga ariza bermoq",
+   "repeat_level": "B1",
+   "repeat_had": "ariza topshirmoq",
+   "now": "ishga ariza bermoq, ariza topshirmoq"
+  },
+  {
+   "de": "Kündigung",
+   "level": "A2",
+   "had": "ishdan boʻshatish",
+   "repeat_level": "B1",
+   "repeat_had": "shartnomani bekor qilish",
+   "now": "ishdan boʻshatish, shartnomani bekor qilish"
+  },
+  {
+   "de": "Einwohnermeldeamt",
+   "level": "A2",
+   "had": "aholini roʻyxatga olish boshqarmasi",
+   "repeat_level": "B1",
+   "repeat_had": "fuqarolarni roʻyxatga olish idorasi",
+   "now": "aholini roʻyxatga olish boshqarmasi, fuqarolarni roʻyxatga olish idorasi"
+  },
+  {
+   "de": "Mieterin",
+   "level": "A1",
+   "had": "ijarachi (ayol)",
+   "repeat_level": "B1",
+   "repeat_had": "ijarachi ayol",
+   "now": "ijarachi (ayol), ijarachi ayol"
+  },
+  {
+   "de": "Vermieterin",
+   "level": "A1",
+   "had": "uy egasi (ayol)",
+   "repeat_level": "B1",
+   "repeat_had": "uy egasi ayol",
+   "now": "uy egasi (ayol), uy egasi ayol"
+  },
+  {
+   "de": "Nachbarin",
+   "level": "A2",
+   "had": "qoʻshni (ayol)",
+   "repeat_level": "B1",
+   "repeat_had": "qoʻshni ayol",
+   "now": "qoʻshni (ayol), qoʻshni ayol"
+  },
+  {
+   "de": "kündigen",
+   "level": "A2",
+   "had": "ishdan boʻshamoq",
+   "repeat_level": "B1",
+   "repeat_had": "shartnomani bekor qilmoq",
+   "now": "ishdan boʻshamoq, shartnomani bekor qilmoq"
+  },
+  {
+   "de": "besichtigen",
+   "level": "A1",
+   "had": "tomosha qilmoq",
+   "repeat_level": "B1",
+   "repeat_had": "koʻzdan kechirmoq",
+   "now": "tomosha qilmoq, koʻzdan kechirmoq"
+  },
+  {
+   "de": "packen",
+   "level": "A2",
+   "had": "yigʻishtirmoq (chamadonni)",
+   "repeat_level": "B1",
+   "repeat_had": "yigʻishtirmoq, qadoqlamoq",
+   "now": "yigʻishtirmoq (chamadonni), qadoqlamoq"
+  },
+  {
+   "de": "bar",
+   "level": "A1",
+   "had": "naqd pul",
+   "repeat_level": "B1",
+   "repeat_had": "naqd (holda)",
+   "now": "naqd pul, naqd (holda)"
+  },
+  {
+   "de": "Überweisung",
+   "level": "A1",
+   "had": "pul oʻtkazma",
+   "repeat_level": "B1",
+   "repeat_had": "pul oʻtkazmasi",
+   "now": "pul oʻtkazma, pul oʻtkazmasi"
+  },
+  {
+   "de": "abheben",
+   "level": "A1",
+   "had": "yechib olmoq",
+   "repeat_level": "B1",
+   "repeat_had": "pul yechmoq",
+   "now": "yechib olmoq, pul yechmoq"
+  },
+  {
+   "de": "Rechnung",
+   "level": "A1",
+   "had": "hisob",
+   "repeat_level": "B1",
+   "repeat_had": "hisob-faktura, chek",
+   "now": "hisob, hisob-faktura, chek"
+  },
+  {
+   "de": "Quittung",
+   "level": "A2",
+   "had": "chek",
+   "repeat_level": "B1",
+   "repeat_had": "kvitansiya",
+   "now": "chek, kvitansiya"
+  },
+  {
+   "de": "zurückgeben",
+   "level": "A2",
+   "had": "qaytarib bermoq",
+   "repeat_level": "B1",
+   "repeat_had": "qaytarmoq",
+   "now": "qaytarib bermoq, qaytarmoq"
+  },
+  {
+   "de": "günstig",
+   "level": "A1",
+   "had": "arzon, foydali (narx)",
+   "repeat_level": "B1",
+   "repeat_had": "arzon, qulay",
+   "now": "arzon, foydali (narx), qulay"
+  },
+  {
+   "de": "Rezeption",
+   "level": "A1",
+   "had": "qabulxona",
+   "repeat_level": "B1",
+   "repeat_had": "qabulxona, resepshn",
+   "now": "qabulxona, resepshn"
+  },
+  {
+   "de": "Reisepass",
+   "level": "A2",
+   "had": "pasport",
+   "repeat_level": "B1",
+   "repeat_had": "xorijiy pasport",
+   "now": "pasport, xorijiy pasport"
+  },
+  {
+   "de": "Prospekt",
+   "level": "A1",
+   "had": "buklet, prospekt",
+   "repeat_level": "B1",
+   "repeat_had": "broshyura, buklet",
+   "now": "buklet, prospekt, broshyura"
+  },
+  {
+   "de": "Denkmal",
+   "level": "A2",
+   "had": "yodgorlik",
+   "repeat_level": "B1",
+   "repeat_had": "yodgorlik, haykal",
+   "now": "yodgorlik, haykal"
+  },
+  {
+   "de": "Gute Reise!",
+   "level": "A2",
+   "had": "Yaxshi boring! (sayohatga)",
+   "repeat_level": "B1",
+   "repeat_had": "Xayrli safar! Yaxshi boring!",
+   "now": "Yaxshi boring! (sayohatga), Xayrli safar! Yaxshi boring!"
+  },
+  {
+   "de": "Müll",
+   "level": "A2",
+   "had": "axlat",
+   "repeat_level": "B1",
+   "repeat_had": "chiqindi, axlat",
+   "now": "axlat, chiqindi"
+  },
+  {
+   "de": "übertragen",
+   "level": "A1",
+   "had": "koʻchirmoq",
+   "repeat_level": "B1",
+   "repeat_had": "translyatsiya qilmoq, uzatmoq",
+   "now": "koʻchirmoq, translyatsiya qilmoq, uzatmoq"
+  },
+  {
+   "de": "googeln",
+   "level": "A1",
+   "had": "googelda qidirmoq",
+   "repeat_level": "B1",
+   "repeat_had": "googledan qidirmoq",
+   "now": "googelda qidirmoq, googledan qidirmoq"
+  },
+  {
+   "de": "online",
+   "level": "A1",
+   "had": "onlayn",
+   "repeat_level": "B1",
+   "repeat_had": "onlayn, tarmoqqa ulangan",
+   "now": "onlayn, tarmoqqa ulangan"
+  },
+  {
+   "de": "Ausländer",
+   "level": "A1",
+   "had": "chet ellik (erkak)",
+   "repeat_level": "B1",
+   "repeat_had": "xorijlik",
+   "now": "chet ellik (erkak), xorijlik"
+  },
+  {
+   "de": "Ausländerin",
+   "level": "A1",
+   "had": "chet ellik (ayol)",
+   "repeat_level": "B1",
+   "repeat_had": "xorijlik (ayol)",
+   "now": "chet ellik (ayol), xorijlik (ayol)"
+  },
+  {
+   "de": "öffentlich",
+   "level": "A2",
+   "had": "jamoat, ommaviy",
+   "repeat_level": "B1",
+   "repeat_had": "ochiq, jamoat -",
+   "now": "jamoat, ommaviy, ochiq"
+  },
+  {
+   "de": "Instrument",
+   "level": "A2",
+   "had": "asbob (musiqa)",
+   "repeat_level": "B1",
+   "repeat_had": "musiqa asbobi",
+   "now": "asbob (musiqa), musiqa asbobi"
+  },
+  {
+   "de": "sich interessieren für",
+   "level": "A2",
+   "had": "qiziqmoq",
+   "repeat_level": "B1",
+   "repeat_had": "biror narsa bilan qiziqmoq",
+   "now": "qiziqmoq, biror narsa bilan qiziqmoq"
+  },
+  {
+   "de": "Fitnessstudio",
+   "level": "A2",
+   "had": "trenajyor zali",
+   "repeat_level": "B1",
+   "repeat_had": "fitnes-zal",
+   "now": "trenajyor zali, fitnes-zal"
+  },
+  {
+   "de": "Hobby",
+   "level": "A1",
+   "had": "sevimli mashgʻulot",
+   "repeat_level": "B1",
+   "repeat_had": "hobbi, sevimli mashgʻulot",
+   "now": "sevimli mashgʻulot, hobbi"
+  },
+  {
+   "de": "gewinnen",
+   "level": "A1",
+   "had": "yutmoq",
+   "repeat_level": "B1",
+   "repeat_had": "yutmoq, gʻalaba qozonmoq",
+   "now": "yutmoq, gʻalaba qozonmoq"
+  },
+  {
+   "de": "wandern",
+   "level": "A1",
+   "had": "piyoda sayr qilmoq",
+   "repeat_level": "B1",
+   "repeat_had": "piyoda sayohat qilmoq",
+   "now": "piyoda sayr qilmoq, piyoda sayohat qilmoq"
+  },
+  {
+   "de": "angeln",
+   "level": "A2",
+   "had": "baliq ovlamoq",
+   "repeat_level": "B1",
+   "repeat_had": "baliq tutmoq",
+   "now": "baliq ovlamoq, baliq tutmoq"
+  },
+  {
+   "de": "tauchen",
+   "level": "A2",
+   "had": "suv ostiga shoʻngʻimoq",
+   "repeat_level": "B1",
+   "repeat_had": "suvga shoʻngʻimoq",
+   "now": "suv ostiga shoʻngʻimoq, suvga shoʻngʻimoq"
+  },
+  {
+   "de": "sportlich",
+   "level": "A2",
+   "had": "sportchan, sportga moyil",
+   "repeat_level": "B1",
+   "repeat_had": "sportcha, sport bilan bogʻliq",
+   "now": "sportchan, sportga moyil, sportcha, sport bilan bogʻliq"
+  },
+  {
+   "de": "anstrengend",
+   "level": "A2",
+   "had": "ogʻir / charchatuvchi",
+   "repeat_level": "B1",
+   "repeat_had": "mashaqqatli, zoʻriqtiruvchi",
+   "now": "ogʻir / charchatuvchi, mashaqqatli, zoʻriqtiruvchi"
+  },
+  {
+   "de": "Gericht",
+   "level": "A2",
+   "had": "sud",
+   "repeat_level": "B1",
+   "repeat_had": "taom",
+   "now": "sud, taom"
+  },
+  {
+   "de": "kochen",
+   "level": "A1",
+   "had": "ovqat pishirmoq, pishirmoq",
+   "repeat_level": "B1",
+   "repeat_had": "pishirmoq, qaynatmoq",
+   "now": "ovqat pishirmoq, pishirmoq, qaynatmoq"
+  },
+  {
+   "de": "probieren",
+   "level": "A1",
+   "had": "tatib koʻrmoq",
+   "repeat_level": "B1",
+   "repeat_had": "tatib koʻrmoq, sinab koʻrmoq",
+   "now": "tatib koʻrmoq, sinab koʻrmoq"
+  },
+  {
+   "de": "schmecken",
+   "level": "A1",
+   "had": "taʼmini sezmoq, mazali boʻlmoq, yoqmoq",
+   "repeat_level": "B1",
+   "repeat_had": "taʼm bermoq, yoqmoq",
+   "now": "taʼmini sezmoq, mazali boʻlmoq, yoqmoq, taʼm bermoq"
+  },
+  {
+   "de": "reservieren",
+   "level": "A2",
+   "had": "joy band qilmoq",
+   "repeat_level": "B1",
+   "repeat_had": "band qilmoq",
+   "now": "joy band qilmoq, band qilmoq"
+  },
+  {
+   "de": "Speisekarte",
+   "level": "A1",
+   "had": "taomnoma, menyu",
+   "repeat_level": "B1",
+   "repeat_had": "taomlar roʻyxati, menyu",
+   "now": "taomnoma, menyu, taomlar roʻyxati"
+  },
+  {
+   "de": "Trinkgeld",
+   "level": "A1",
+   "had": "choychaqa",
+   "repeat_level": "B1",
+   "repeat_had": "choy puli",
+   "now": "choychaqa, choy puli"
+  },
+  {
+   "de": "Bahnsteig",
+   "level": "A1",
+   "had": "platforma, perron",
+   "repeat_level": "B1",
+   "repeat_had": "peron",
+   "now": "platforma, perron, peron"
+  },
+  {
+   "de": "enttäuscht",
+   "level": "A2",
+   "had": "koʻngli qolgan",
+   "repeat_level": "B1",
+   "repeat_had": "hafsalasi pir boʻlgan",
+   "now": "koʻngli qolgan, hafsalasi pir boʻlgan"
+  },
+  {
+   "de": "Überraschung",
+   "level": "A2",
+   "had": "hayrat, ajablanish",
+   "repeat_level": "B1",
+   "repeat_had": "hayratlanish, syurpriz",
+   "now": "hayrat, ajablanish, hayratlanish, syurpriz"
+  },
+  {
+   "de": "Anfang",
+   "level": "A1",
+   "had": "boshlanish",
+   "repeat_level": "B1",
+   "repeat_had": "boshlanish, start",
+   "now": "boshlanish, start"
+  },
+  {
+   "de": "Lebenslauf",
+   "level": "A2",
+   "had": "tarjimai hol",
+   "repeat_level": "B2",
+   "repeat_had": "tarjimai hol, rezyume",
+   "now": "tarjimai hol, rezyume"
+  },
+  {
+   "de": "kündigen",
+   "level": "A2",
+   "had": "ishdan boʻshamoq, shartnomani bekor qilmoq",
+   "repeat_level": "B2",
+   "repeat_had": "ishdan boʻshamoq / boʻshatmoq",
+   "now": "ishdan boʻshamoq, shartnomani bekor qilmoq, ishdan boʻshamoq / boʻshatmoq"
+  },
+  {
+   "de": "pendeln",
+   "level": "B1",
+   "had": "ishga-uyga qatnamoq",
+   "repeat_level": "B2",
+   "repeat_had": "ishga qatnamoq",
+   "now": "ishga-uyga qatnamoq, ishga qatnamoq"
+  },
+  {
+   "de": "verhandeln",
+   "level": "B1",
+   "had": "muzokara olib bormoq",
+   "repeat_level": "B2",
+   "repeat_had": "muzokara qilmoq",
+   "now": "muzokara olib bormoq, muzokara qilmoq"
+  },
+  {
+   "de": "Studium",
+   "level": "A1",
+   "had": "oʻqish, taʼlim, oliy taʼlim (universitetda oʻqish)",
+   "repeat_level": "B2",
+   "repeat_had": "oliy taʼlim olish",
+   "now": "oʻqish, taʼlim, oliy taʼlim (universitetda oʻqish), oliy taʼlim olish"
+  },
+  {
+   "de": "Abschluss",
+   "level": "B1",
+   "had": "bitirish (diplom)",
+   "repeat_level": "B2",
+   "repeat_had": "bitirish, diplom olish",
+   "now": "bitirish (diplom), diplom olish"
+  },
+  {
+   "de": "Untersuchung",
+   "level": "A2",
+   "had": "tekshiruv",
+   "repeat_level": "B2",
+   "repeat_had": "tekshiruv, tadqiqot",
+   "now": "tekshiruv, tadqiqot"
+  },
+  {
+   "de": "Kompetenz",
+   "level": "B1",
+   "had": "kompetensiya",
+   "repeat_level": "B2",
+   "repeat_had": "kompetensiya, layoqat",
+   "now": "kompetensiya, layoqat"
+  },
+  {
+   "de": "Vortrag",
+   "level": "B1",
+   "had": "nutq / taqdimot",
+   "repeat_level": "B2",
+   "repeat_had": "maʼruza, nutq",
+   "now": "nutq / taqdimot, maʼruza, nutq"
+  },
+  {
+   "de": "Dozent",
+   "level": "B1",
+   "had": "oʻqituvchi (universitet)",
+   "repeat_level": "B2",
+   "repeat_had": "dotsent, oʻqituvchi",
+   "now": "oʻqituvchi (universitet), dotsent"
+  },
+  {
+   "de": "untersuchen",
+   "level": "B1",
+   "had": "tekshirmoq",
+   "repeat_level": "B2",
+   "repeat_had": "tekshirmoq, oʻrganmoq",
+   "now": "tekshirmoq, oʻrganmoq"
+  },
+  {
+   "de": "entdecken",
+   "level": "B1",
+   "had": "kashf etmoq",
+   "repeat_level": "B2",
+   "repeat_had": "kashf qilmoq",
+   "now": "kashf etmoq, kashf qilmoq"
+  },
+  {
+   "de": "Erderwärmung",
+   "level": "B1",
+   "had": "yer isishi",
+   "repeat_level": "B2",
+   "repeat_had": "yer sharining isishi",
+   "now": "yer isishi, yer sharining isishi"
+  },
+  {
+   "de": "Umweltverschmutzung",
+   "level": "B1",
+   "had": "atrof-muhit ifloslanishi",
+   "repeat_level": "B2",
+   "repeat_had": "atrof-muhitning ifloslanishi",
+   "now": "atrof-muhit ifloslanishi, atrof-muhitning ifloslanishi"
+  },
+  {
+   "de": "Luftverschmutzung",
+   "level": "B1",
+   "had": "havo ifloslanishi",
+   "repeat_level": "B2",
+   "repeat_had": "havoning ifloslanishi",
+   "now": "havo ifloslanishi, havoning ifloslanishi"
+  },
+  {
+   "de": "Verpackung",
+   "level": "B1",
+   "had": "qadoqlash, oʻrov",
+   "repeat_level": "B2",
+   "repeat_had": "qadoq, oʻrov",
+   "now": "qadoqlash, oʻrov, qadoq"
+  },
+  {
+   "de": "Abfall",
+   "level": "B1",
+   "had": "chiqindi",
+   "repeat_level": "B2",
+   "repeat_had": "chiqindi, axlat",
+   "now": "chiqindi, axlat"
+  },
+  {
+   "de": "Artenvielfalt",
+   "level": "B1",
+   "had": "biologik xilma-xillik",
+   "repeat_level": "B2",
+   "repeat_had": "turlar xilma-xilligi",
+   "now": "biologik xilma-xillik, turlar xilma-xilligi"
+  },
+  {
+   "de": "Aussterben",
+   "level": "B1",
+   "had": "qirilib ketish, yoʻqolib ketish",
+   "repeat_level": "B2",
+   "repeat_had": "qirilib ketish, yoʻq boʻlib ketish",
+   "now": "qirilib ketish, yoʻqolib ketish, yoʻq boʻlib ketish"
+  },
+  {
+   "de": "vermeiden",
+   "level": "B1",
+   "had": "oldini olmoq",
+   "repeat_level": "B2",
+   "repeat_had": "oldini olmoq, qochmoq",
+   "now": "oldini olmoq, qochmoq"
+  },
+  {
+   "de": "aussterben",
+   "level": "B1",
+   "had": "qirilib ketmoq, yoʻqolib ketmoq",
+   "repeat_level": "B2",
+   "repeat_had": "qirilib ketmoq, yoʻq boʻlib ketmoq",
+   "now": "qirilib ketmoq, yoʻqolib ketmoq, yoʻq boʻlib ketmoq"
+  },
+  {
+   "de": "trennen",
+   "level": "B1",
+   "had": "ajratmoq",
+   "repeat_level": "B2",
+   "repeat_had": "saralamoq, ajratmoq",
+   "now": "ajratmoq, saralamoq"
+  },
+  {
+   "de": "umweltfreundlich",
+   "level": "B1",
+   "had": "ekologik toza",
+   "repeat_level": "B2",
+   "repeat_had": "atrof-muhitga zararsiz",
+   "now": "ekologik toza, atrof-muhitga zararsiz"
+  },
+  {
+   "de": "Verantwortung",
+   "level": "B1",
+   "had": "masʼuliyat",
+   "repeat_level": "B2",
+   "repeat_had": "javobgarlik",
+   "now": "masʼuliyat, javobgarlik"
+  },
+  {
+   "de": "Gleichberechtigung",
+   "level": "B1",
+   "had": "tenglik, tenghuquqlilik",
+   "repeat_level": "B2",
+   "repeat_had": "huquqiy tenglik",
+   "now": "tenglik, tenghuquqlilik, huquqiy tenglik"
+  },
+  {
+   "de": "Vorurteil",
+   "level": "B1",
+   "had": "notoʻgʻri qarash",
+   "repeat_level": "B2",
+   "repeat_had": "noxolis fikr",
+   "now": "notoʻgʻri qarash, noxolis fikr"
+  },
+  {
+   "de": "vertreten",
+   "level": "B1",
+   "had": "oʻrnini bosmoq",
+   "repeat_level": "B2",
+   "repeat_had": "vakillik qilmoq",
+   "now": "oʻrnini bosmoq, vakillik qilmoq"
+  },
+  {
+   "de": "Sendung",
+   "level": "A2",
+   "had": "koʻrsatuv",
+   "repeat_level": "B2",
+   "repeat_had": "eshittiruv, translyatsiya",
+   "now": "koʻrsatuv, eshittiruv, translyatsiya"
+  },
+  {
+   "de": "Fake News",
+   "level": "B1",
+   "had": "soxta xabarlar",
+   "repeat_level": "B2",
+   "repeat_had": "soxta yangiliklar",
+   "now": "soxta xabarlar, soxta yangiliklar"
+  },
+  {
+   "de": "Beitrag",
+   "level": "B1",
+   "had": "post, yozuv",
+   "repeat_level": "B2",
+   "repeat_had": "post, maqola",
+   "now": "post, yozuv, maqola"
+  },
+  {
+   "de": "hochladen",
+   "level": "B1",
+   "had": "internetga yuklamoq",
+   "repeat_level": "B2",
+   "repeat_had": "yuklamoq (internetga)",
+   "now": "internetga yuklamoq, yuklamoq (internetga)"
+  },
+  {
+   "de": "Cybermobbing",
+   "level": "B1",
+   "had": "internetda taʼqib qilish (kiber-bulling)",
+   "repeat_level": "B2",
+   "repeat_had": "kiberbulling, internetda taʼqib qilish",
+   "now": "internetda taʼqib qilish (kiber-bulling), kiberbulling"
+  },
+  {
+   "de": "Anzeige",
+   "level": "A1",
+   "had": "eʼlon",
+   "repeat_level": "B2",
+   "repeat_had": "arizanoma, shikoyat",
+   "now": "eʼlon, arizanoma, shikoyat"
+  },
+  {
+   "de": "Schriftstellerin",
+   "level": "B1",
+   "had": "ayol yozuvchi",
+   "repeat_level": "B2",
+   "repeat_had": "yozuvchi (ayol)",
+   "now": "ayol yozuvchi, yozuvchi (ayol)"
+  },
+  {
+   "de": "Gemälde",
+   "level": "B1",
+   "had": "rasm (moʻyqalam asari)",
+   "repeat_level": "B2",
+   "repeat_had": "rasm asari",
+   "now": "rasm (moʻyqalam asari), rasm asari"
+  },
+  {
+   "de": "Künstlerin",
+   "level": "B1",
+   "had": "ayol sanʼatkor",
+   "repeat_level": "B2",
+   "repeat_had": "sanʼatkor (ayol)",
+   "now": "ayol sanʼatkor, sanʼatkor (ayol)"
+  },
+  {
+   "de": "Aufführung",
+   "level": "B1",
+   "had": "sahnalashtirish, namoyish",
+   "repeat_level": "B2",
+   "repeat_had": "tomosha, spektakl",
+   "now": "sahnalashtirish, namoyish, tomosha, spektakl"
+  },
+  {
+   "de": "bewundern",
+   "level": "B1",
+   "had": "hayratlanmoq, tahsin qilmoq",
+   "repeat_level": "B2",
+   "repeat_had": "tahsinlamoq",
+   "now": "hayratlanmoq, tahsin qilmoq, tahsinlamoq"
+  },
+  {
+   "de": "Emotion",
+   "level": "B1",
+   "had": "emotsiya",
+   "repeat_level": "B2",
+   "repeat_had": "hissiyot",
+   "now": "emotsiya, hissiyot"
+  },
+  {
+   "de": "Depression",
+   "level": "B1",
+   "had": "depressiya",
+   "repeat_level": "B2",
+   "repeat_had": "depressiya, ruhiy tushkunlik",
+   "now": "depressiya, ruhiy tushkunlik"
+  },
+  {
+   "de": "Stress",
+   "level": "B1",
+   "had": "stress",
+   "repeat_level": "B2",
+   "repeat_had": "zoʻriqish",
+   "now": "stress, zoʻriqish"
+  },
+  {
+   "de": "sich ärgern über (Akk.)",
+   "level": "B1",
+   "had": "achchiqlanmoq",
+   "repeat_level": "B2",
+   "repeat_had": "achchiqlanmoq, xafa boʻlmoq",
+   "now": "achchiqlanmoq, xafa boʻlmoq"
+  },
+  {
+   "de": "ängstlich",
+   "level": "A2",
+   "had": "qoʻrqoq",
+   "repeat_level": "B2",
+   "repeat_had": "qoʻrqoq, xavotirli",
+   "now": "qoʻrqoq, xavotirli"
+  },
+  {
+   "de": "sensibel",
+   "level": "B1",
+   "had": "nozik taʼbli, sezgir",
+   "repeat_level": "B2",
+   "repeat_had": "sezgir, nozik",
+   "now": "nozik taʼbli, sezgir, nozik"
+  },
+  {
+   "de": "betonen",
+   "level": "B1",
+   "had": "taʼkidlamoq",
+   "repeat_level": "B2",
+   "repeat_had": "taʼkidlamoq, urgʻu bermoq",
+   "now": "taʼkidlamoq, urgʻu bermoq"
+  },
+  {
+   "de": "Migrant",
+   "level": "B1",
+   "had": "migrant",
+   "repeat_level": "B2",
+   "repeat_had": "migrant, koʻchib yuruvchi",
+   "now": "migrant, koʻchib yuruvchi"
+  },
+  {
+   "de": "Zusammenhalt",
+   "level": "B1",
+   "had": "hamjihatlik",
+   "repeat_level": "B2",
+   "repeat_had": "jamiyat birligi, hamjihatlik",
+   "now": "hamjihatlik, jamiyat birligi"
+  },
+  {
+   "de": "global",
+   "level": "A1",
+   "had": "global",
+   "repeat_level": "B2",
+   "repeat_had": "global, umumjahon",
+   "now": "global, umumjahon"
+  },
+  {
+   "de": "funktionieren",
+   "level": "B1",
+   "had": "ishlamoq, koʻrsatmoq",
+   "repeat_level": "B2",
+   "repeat_had": "ishlamoq, faoliyat koʻrsatmoq",
+   "now": "ishlamoq, koʻrsatmoq, faoliyat koʻrsatmoq"
+  },
+  {
+   "de": "Hardware",
+   "level": "B1",
+   "had": "texnik taʼminot",
+   "repeat_level": "B2",
+   "repeat_had": "apparat taʼminot",
+   "now": "texnik taʼminot, apparat taʼminot"
+  },
+  {
+   "de": "Wert",
+   "level": "B1",
+   "had": "qadriyat",
+   "repeat_level": "B2",
+   "repeat_had": "qadriyat, qiymat",
+   "now": "qadriyat, qiymat"
+  },
+  {
+   "de": "Ansicht",
+   "level": "B1",
+   "had": "qarash, nuqtai nazar",
+   "repeat_level": "B2",
+   "repeat_had": "qarash, fikr",
+   "now": "qarash, nuqtai nazar, fikr"
+  },
+  {
+   "de": "Ehrlichkeit",
+   "level": "A2",
+   "had": "rostgoʻylik",
+   "repeat_level": "B2",
+   "repeat_had": "halollik",
+   "now": "rostgoʻylik, halollik"
+  },
+  {
+   "de": "meinen",
+   "level": "B1",
+   "had": "fikr bildirmoq, nazarda tutmoq",
+   "repeat_level": "B2",
+   "repeat_had": "fikr bildirmoq, deb hisoblamoq",
+   "now": "fikr bildirmoq, nazarda tutmoq, deb hisoblamoq"
+  },
+  {
+   "de": "bewerten",
+   "level": "B1",
+   "had": "baholamoq / tahlil qilmoq",
+   "repeat_level": "B2",
+   "repeat_had": "baholamoq",
+   "now": "baholamoq / tahlil qilmoq, baholamoq"
+  },
+  {
+   "de": "Vorgang",
+   "level": "B1",
+   "had": "jarayon",
+   "repeat_level": "B2",
+   "repeat_had": "voqea, jarayon",
+   "now": "jarayon, voqea"
+  },
+  {
+   "de": "Übergang",
+   "level": "B1",
+   "had": "oʻtish davri",
+   "repeat_level": "B2",
+   "repeat_had": "oʻtish (davri)",
+   "now": "oʻtish davri, oʻtish (davri)"
+  },
+  {
+   "de": "Verlauf",
+   "level": "B1",
+   "had": "kechishi, borishi",
+   "repeat_level": "B2",
+   "repeat_had": "borishi, jarayoni",
+   "now": "kechishi, borishi, jarayoni"
+  },
+  {
+   "de": "Fortschritt",
+   "level": "B1",
+   "had": "taraqqiyot, ilgarilash",
+   "repeat_level": "B2",
+   "repeat_had": "taraqqiyot, rivojlanish",
+   "now": "taraqqiyot, ilgarilash, rivojlanish"
+  },
+  {
+   "de": "Widerspruch",
+   "level": "B1",
+   "had": "eʼtiroz, ziddiyat",
+   "repeat_level": "B2",
+   "repeat_had": "ziddiyat, qarshilik",
+   "now": "eʼtiroz, ziddiyat, qarshilik"
+  },
+  {
+   "de": "zunehmen",
+   "level": "B1",
+   "had": "vazn olmoq, semirmoq",
+   "repeat_level": "B2",
+   "repeat_had": "koʻpaymoq, oshmoq",
+   "now": "vazn olmoq, semirmoq, koʻpaymoq, oshmoq"
+  },
+  {
+   "de": "abnehmen",
+   "level": "B1",
+   "had": "vazn tashlamoq",
+   "repeat_level": "B2",
+   "repeat_had": "kamaymoq, pasaymoq",
+   "now": "vazn tashlamoq, kamaymoq, pasaymoq"
+  },
+  {
+   "de": "im Gegensatz zu",
+   "level": "B1",
+   "had": "farqli oʻlaroq",
+   "repeat_level": "B2",
+   "repeat_had": "-dan farqli oʻlaroq",
+   "now": "farqli oʻlaroq, -dan farqli oʻlaroq"
+  },
+  {
+   "de": "Publikation",
+   "level": "B2",
+   "had": "nashr",
+   "repeat_level": "C1",
+   "repeat_had": "nashr, eʼlon qilingan asar",
+   "now": "nashr, eʼlon qilingan asar"
+  },
+  {
+   "de": "Objektivität",
+   "level": "B2",
+   "had": "xolislik",
+   "repeat_level": "C1",
+   "repeat_had": "obyektivlik",
+   "now": "xolislik, obyektivlik"
+  },
+  {
+   "de": "bahnbrechend",
+   "level": "B2",
+   "had": "yangi davr ochuvchi, inqilobiy",
+   "repeat_level": "C1",
+   "repeat_had": "inqilobiy, tub burilish yasovchi",
+   "now": "yangi davr ochuvchi, inqilobiy, tub burilish yasovchi"
+  },
+  {
+   "de": "wegweisend",
+   "level": "B2",
+   "had": "yoʻl koʻrsatuvchi, yoʻnalish belgilovchi",
+   "repeat_level": "C1",
+   "repeat_had": "yoʻl koʻrsatuvchi, muhim ahamiyatga ega",
+   "now": "yoʻl koʻrsatuvchi, yoʻnalish belgilovchi, muhim ahamiyatga ega"
+  },
+  {
+   "de": "vernetzt",
+   "level": "B2",
+   "had": "bogʻlangan, tarmoqlashgan",
+   "repeat_level": "C1",
+   "repeat_had": "oʻzaro bogʻlangan",
+   "now": "bogʻlangan, tarmoqlashgan, oʻzaro bogʻlangan"
+  },
+  {
+   "de": "Vernetzung",
+   "level": "B2",
+   "had": "tarmoqlashtirish, bogʻlanish",
+   "repeat_level": "C1",
+   "repeat_had": "oʻzaro bogʻlanish",
+   "now": "tarmoqlashtirish, bogʻlanish, oʻzaro bogʻlanish"
+  },
+  {
+   "de": "Freihandelsabkommen",
+   "level": "B2",
+   "had": "erkin savdo shartnomasi",
+   "repeat_level": "C1",
+   "repeat_had": "erkin savdo bitimi",
+   "now": "erkin savdo shartnomasi, erkin savdo bitimi"
+  },
+  {
+   "de": "Zoll",
+   "level": "A1",
+   "had": "bojxona",
+   "repeat_level": "C1",
+   "repeat_had": "bojxona bojligi",
+   "now": "bojxona, bojxona bojligi"
+  },
+  {
+   "de": "Klage",
+   "level": "B2",
+   "had": "sud daʼvosi",
+   "repeat_level": "C1",
+   "repeat_had": "daʼvo",
+   "now": "sud daʼvosi, daʼvo"
+  },
+  {
+   "de": "Behörde",
+   "level": "A2",
+   "had": "davlat muassasasi",
+   "repeat_level": "C1",
+   "repeat_had": "idora, muassasa",
+   "now": "davlat muassasasi, idora, muassasa"
+  },
+  {
+   "de": "Beamte",
+   "level": "A2",
+   "had": "amaldor, davlat xodimi",
+   "repeat_level": "C1",
+   "repeat_had": "davlat xizmatchisi",
+   "now": "amaldor, davlat xodimi, davlat xizmatchisi"
+  },
+  {
+   "de": "Protest",
+   "level": "B2",
+   "had": "norozilik",
+   "repeat_level": "C1",
+   "repeat_had": "norozilik, protest",
+   "now": "norozilik, protest"
+  },
+  {
+   "de": "verurteilen",
+   "level": "B2",
+   "had": "hukm chiqarmoq",
+   "repeat_level": "C1",
+   "repeat_had": "hukm chiqarmoq, mahkum qilmoq",
+   "now": "hukm chiqarmoq, mahkum qilmoq"
+  },
+  {
+   "de": "Gemeinschaft",
+   "level": "B1",
+   "had": "hamjamiyat",
+   "repeat_level": "C1",
+   "repeat_had": "jamoa, hamjamiyat",
+   "now": "hamjamiyat, jamoa"
+  },
+  {
+   "de": "gesellschaftlich",
+   "level": "B2",
+   "had": "jamiyatga oid",
+   "repeat_level": "C1",
+   "repeat_had": "ijtimoiy, jamiyatga oid",
+   "now": "jamiyatga oid, ijtimoiy"
+  },
+  {
+   "de": "Zugehörigkeit",
+   "level": "B2",
+   "had": "mansublik, tegishlilik",
+   "repeat_level": "C1",
+   "repeat_had": "mansublik, tegishlilik hissi",
+   "now": "mansublik, tegishlilik, tegishlilik hissi"
+  },
+  {
+   "de": "Vorurteil",
+   "level": "B1",
+   "had": "notoʻgʻri qarash, noxolis fikr",
+   "repeat_level": "C1",
+   "repeat_had": "old xulosa, stereotip",
+   "now": "notoʻgʻri qarash, noxolis fikr, old xulosa, stereotip"
+  },
+  {
+   "de": "Gleichberechtigung",
+   "level": "B1",
+   "had": "tenglik, tenghuquqlilik, huquqiy tenglik",
+   "repeat_level": "C1",
+   "repeat_had": "huquqlar tengligi",
+   "now": "tenglik, tenghuquqlilik, huquqiy tenglik, huquqlar tengligi"
+  },
+  {
+   "de": "Randgruppe",
+   "level": "B1",
+   "had": "chetlashtirilgan guruh",
+   "repeat_level": "C1",
+   "repeat_had": "chetga surilgan guruh",
+   "now": "chetlashtirilgan guruh, chetga surilgan guruh"
+  },
+  {
+   "de": "Ehrenamt",
+   "level": "B2",
+   "had": "koʻngillilik faoliyati",
+   "repeat_level": "C1",
+   "repeat_had": "koʻngillilik lavozimi",
+   "now": "koʻngillilik faoliyati, koʻngillilik lavozimi"
+  },
+  {
+   "de": "ehrenamtlich",
+   "level": "B1",
+   "had": "koʻngilli (haq olmasdan)",
+   "repeat_level": "C1",
+   "repeat_had": "koʻngilli, notijorat",
+   "now": "koʻngilli (haq olmasdan), notijorat"
+  },
+  {
+   "de": "Spende",
+   "level": "B1",
+   "had": "xayriya",
+   "repeat_level": "C1",
+   "repeat_had": "xayriya, ehson",
+   "now": "xayriya, ehson"
+  },
+  {
+   "de": "Integration",
+   "level": "B1",
+   "had": "integratsiya, moslashish",
+   "repeat_level": "C1",
+   "repeat_had": "integratsiya, moslashuv",
+   "now": "integratsiya, moslashish, moslashuv"
+  },
+  {
+   "de": "Weltoffenheit",
+   "level": "B2",
+   "had": "dunyoga ochiqlik, kengfikrlilik",
+   "repeat_level": "C1",
+   "repeat_had": "dunyoqarash kengligi, ochiqlik",
+   "now": "dunyoga ochiqlik, kengfikrlilik, dunyoqarash kengligi, ochiqlik"
+  },
+  {
+   "de": "Fremdenfeindlichkeit",
+   "level": "B2",
+   "had": "begonalarga nafrat, ksenofobiya",
+   "repeat_level": "C1",
+   "repeat_had": "kseno-fobiya, chet elliklarga nafrat",
+   "now": "begonalarga nafrat, ksenofobiya, chet elliklarga nafrat"
+  },
+  {
+   "de": "Verhältnis",
+   "level": "B2",
+   "had": "munosabat, nisbat",
+   "repeat_level": "C1",
+   "repeat_had": "munosabat, aloqa",
+   "now": "munosabat, nisbat, aloqa"
+  },
+  {
+   "de": "Regenwald",
+   "level": "B2",
+   "had": "tropik yomgʻir oʻrmoni",
+   "repeat_level": "C1",
+   "repeat_had": "yomgʻir oʻrmoni",
+   "now": "tropik yomgʻir oʻrmoni, yomgʻir oʻrmoni"
+  },
+  {
+   "de": "Abholzung",
+   "level": "B2",
+   "had": "oʻrmonlarni kesib tashlash",
+   "repeat_level": "C1",
+   "repeat_had": "oʻrmonlarni kesish",
+   "now": "oʻrmonlarni kesib tashlash, oʻrmonlarni kesish"
+  },
+  {
+   "de": "umweltfreundlich",
+   "level": "B1",
+   "had": "ekologik toza, atrof-muhitga zararsiz",
+   "repeat_level": "C1",
+   "repeat_had": "ekologik toza, tabiatga zararsiz",
+   "now": "ekologik toza, atrof-muhitga zararsiz, tabiatga zararsiz"
+  },
+  {
+   "de": "vermitteln",
+   "level": "B2",
+   "had": "yetkazmoq, singdirmoq",
+   "repeat_level": "C1",
+   "repeat_had": "yetkazmoq, oʻrgatmoq",
+   "now": "yetkazmoq, singdirmoq, oʻrgatmoq"
+  },
+  {
+   "de": "Kompetenz",
+   "level": "B1",
+   "had": "kompetensiya, layoqat",
+   "repeat_level": "C1",
+   "repeat_had": "kompetensiya, malaka",
+   "now": "kompetensiya, layoqat, malaka"
+  },
+  {
+   "de": "Qualifikation",
+   "level": "B1",
+   "had": "malaka",
+   "repeat_level": "C1",
+   "repeat_had": "malaka, kvalifikatsiya",
+   "now": "malaka, kvalifikatsiya"
+  },
+  {
+   "de": "Fortbildung",
+   "level": "B2",
+   "had": "malaka oshirish kursi",
+   "repeat_level": "C1",
+   "repeat_had": "kasbiy malaka oshirish",
+   "now": "malaka oshirish kursi, kasbiy malaka oshirish"
+  },
+  {
+   "de": "Umschulung",
+   "level": "B2",
+   "had": "qayta tayyorlash (kasbiy)",
+   "repeat_level": "C1",
+   "repeat_had": "qayta ixtisoslashtirish",
+   "now": "qayta tayyorlash (kasbiy), qayta ixtisoslashtirish"
+  },
+  {
+   "de": "Schlüsselqualifikation",
+   "level": "B2",
+   "had": "asosiy malaka",
+   "repeat_level": "C1",
+   "repeat_had": "asosiy koʻnikma",
+   "now": "asosiy malaka, asosiy koʻnikma"
+  },
+  {
+   "de": "Auszubildende",
+   "level": "B1",
+   "had": "shogird (kasb oʻrganuvchi)",
+   "repeat_level": "C1",
+   "repeat_had": "shogird, oʻquvchi-amaliyotchi",
+   "now": "shogird (kasb oʻrganuvchi), oʻquvchi-amaliyotchi"
+  },
+  {
+   "de": "absolvieren",
+   "level": "B1",
+   "had": "bitirmoq (oʻqishni)",
+   "repeat_level": "C1",
+   "repeat_had": "tugatmoq, bitirmoq",
+   "now": "bitirmoq (oʻqishni), tugatmoq"
+  },
+  {
+   "de": "Fachkraft",
+   "level": "B1",
+   "had": "malakali kadr",
+   "repeat_level": "C1",
+   "repeat_had": "malakali mutaxassis",
+   "now": "malakali kadr, malakali mutaxassis"
+  },
+  {
+   "de": "kündigen",
+   "level": "A2",
+   "had": "ishdan boʻshamoq, shartnomani bekor qilmoq, ishdan boʻshamoq / boʻshatmoq",
+   "repeat_level": "C1",
+   "repeat_had": "ishdan boʻshatmoq / boʻshamoq",
+   "now": "ishdan boʻshamoq, shartnomani bekor qilmoq, ishdan boʻshamoq / boʻshatmoq, ishdan boʻshatmoq / boʻshamoq"
+  },
+  {
+   "de": "Vorstellungsgespräch",
+   "level": "A2",
+   "had": "ish suhbati",
+   "repeat_level": "C1",
+   "repeat_had": "suhbat (ishga qabul)",
+   "now": "ish suhbati, suhbat (ishga qabul)"
+  },
+  {
+   "de": "Work-Life-Balance",
+   "level": "B2",
+   "had": "ish va shaxsiy hayot muvozanati",
+   "repeat_level": "C1",
+   "repeat_had": "ish va hayot muvozanati",
+   "now": "ish va shaxsiy hayot muvozanati, ish va hayot muvozanati"
+  },
+  {
+   "de": "Selbstständigkeit",
+   "level": "B1",
+   "had": "mustaqil ishlash",
+   "repeat_level": "C1",
+   "repeat_had": "mustaqil ishlash, erkin kasb",
+   "now": "mustaqil ishlash, erkin kasb"
+  },
+  {
+   "de": "öffentlich",
+   "level": "A2",
+   "had": "jamoat, ommaviy, ochiq",
+   "repeat_level": "C1",
+   "repeat_had": "ommaviy, davlat",
+   "now": "jamoat, ommaviy, ochiq, davlat"
+  },
+  {
+   "de": "objektiv",
+   "level": "B2",
+   "had": "obyektiv",
+   "repeat_level": "C1",
+   "repeat_had": "xolis, obyektiv",
+   "now": "obyektiv, xolis"
+  },
+  {
+   "de": "Sendung",
+   "level": "A2",
+   "had": "koʻrsatuv, eshittiruv, translyatsiya",
+   "repeat_level": "C1",
+   "repeat_had": "eshittirish, koʻrsatuv",
+   "now": "koʻrsatuv, eshittiruv, translyatsiya, eshittirish"
+  },
+  {
+   "de": "Sender",
+   "level": "B1",
+   "had": "kanal (radio/tv)",
+   "repeat_level": "C1",
+   "repeat_had": "telekanal, radiostansiya",
+   "now": "kanal (radio/tv), telekanal, radiostansiya"
+  },
+  {
+   "de": "Fake News",
+   "level": "B1",
+   "had": "soxta xabarlar, soxta yangiliklar",
+   "repeat_level": "C1",
+   "repeat_had": "soxta xabar",
+   "now": "soxta xabarlar, soxta yangiliklar, soxta xabar"
+  },
+  {
+   "de": "beeinflussen",
+   "level": "B2",
+   "had": "taʼsir koʻrsatmoq",
+   "repeat_level": "C1",
+   "repeat_had": "taʼsir qilmoq",
+   "now": "taʼsir koʻrsatmoq, taʼsir qilmoq"
+  },
+  {
+   "de": "Skandal",
+   "level": "B2",
+   "had": "mojaro",
+   "repeat_level": "C1",
+   "repeat_had": "janjal, mojaro",
+   "now": "mojaro, janjal"
+  },
+  {
+   "de": "Rezension",
+   "level": "B2",
+   "had": "tanqidiy sharh",
+   "repeat_level": "C1",
+   "repeat_had": "taqriz",
+   "now": "tanqidiy sharh, taqriz"
+  },
+  {
+   "de": "Gemälde",
+   "level": "B1",
+   "had": "rasm (moʻyqalam asari), rasm asari",
+   "repeat_level": "C1",
+   "repeat_had": "rasm, tasvir",
+   "now": "rasm (moʻyqalam asari), rasm asari, tasvir"
+  },
+  {
+   "de": "Meisterwerk",
+   "level": "B2",
+   "had": "sanʼat durdonasi",
+   "repeat_level": "C1",
+   "repeat_had": "shoh asar",
+   "now": "sanʼat durdonasi, shoh asar"
+  },
+  {
+   "de": "Perspektive",
+   "level": "B2",
+   "had": "nuqtai nazar, istiqbol",
+   "repeat_level": "C1",
+   "repeat_had": "perspektiva",
+   "now": "nuqtai nazar, istiqbol, perspektiva"
+  },
+  {
+   "de": "Inszenierung",
+   "level": "B2",
+   "had": "sahnalashtirish",
+   "repeat_level": "C1",
+   "repeat_had": "sahnalashtirish, rejissyorlik ishi",
+   "now": "sahnalashtirish, rejissyorlik ishi"
+  },
+  {
+   "de": "Verfilmung",
+   "level": "B2",
+   "had": "ekranlashtirish",
+   "repeat_level": "C1",
+   "repeat_had": "film ekranlashtirilishi",
+   "now": "ekranlashtirish, film ekranlashtirilishi"
+  },
+  {
+   "de": "Subvention",
+   "level": "B2",
+   "had": "subsidiya",
+   "repeat_level": "C1",
+   "repeat_had": "subsidiya, davlat yordami",
+   "now": "subsidiya, davlat yordami"
+  },
+  {
+   "de": "Rezeption",
+   "level": "A1",
+   "had": "qabulxona, resepshn",
+   "repeat_level": "C1",
+   "repeat_had": "qabul qilinishi, idrok etilishi",
+   "now": "qabulxona, resepshn, qabul qilinishi, idrok etilishi"
+  },
+  {
+   "de": "veröffentlichen",
+   "level": "B1",
+   "had": "nashr etmoq, eʼlon qilmoq",
+   "repeat_level": "C1",
+   "repeat_had": "chop etmoq, nashr qilmoq",
+   "now": "nashr etmoq, eʼlon qilmoq, chop etmoq, nashr qilmoq"
+  },
+  {
+   "de": "anspruchsvoll",
+   "level": "B2",
+   "had": "talabchan",
+   "repeat_level": "C1",
+   "repeat_had": "talabchan, murakkab",
+   "now": "talabchan, murakkab"
+  },
+  {
+   "de": "Verhalten",
+   "level": "B1",
+   "had": "xulq-atvor",
+   "repeat_level": "C1",
+   "repeat_had": "xulq-atvor, xatti-harakat",
+   "now": "xulq-atvor, xatti-harakat"
+  },
+  {
+   "de": "Wahrnehmung",
+   "level": "B2",
+   "had": "idrok",
+   "repeat_level": "C1",
+   "repeat_had": "idrok, qabul qilish",
+   "now": "idrok, qabul qilish"
+  },
+  {
+   "de": "Unterbewusstsein",
+   "level": "B2",
+   "had": "ostki ong",
+   "repeat_level": "C1",
+   "repeat_had": "ongsizlik, ong osti",
+   "now": "ostki ong, ongsizlik, ong osti"
+  },
+  {
+   "de": "Mitgefühl",
+   "level": "B2",
+   "had": "hamdardlik",
+   "repeat_level": "C1",
+   "repeat_had": "hamdardlik, rahm-shafqat",
+   "now": "hamdardlik, rahm-shafqat"
+  },
+  {
+   "de": "Frustration",
+   "level": "B2",
+   "had": "asabiylashish, ranjish",
+   "repeat_level": "C1",
+   "repeat_had": "umidsizlanish, asabiylashish",
+   "now": "asabiylashish, ranjish, umidsizlanish"
+  },
+  {
+   "de": "Erkenntnis",
+   "level": "B2",
+   "had": "bilim, xulosa",
+   "repeat_level": "C1",
+   "repeat_had": "bilim, idrok",
+   "now": "bilim, xulosa, idrok"
+  },
+  {
+   "de": "Bewusstsein",
+   "level": "B2",
+   "had": "ong",
+   "repeat_level": "C1",
+   "repeat_had": "ong, shuur",
+   "now": "ong, shuur"
+  },
+  {
+   "de": "Moral",
+   "level": "B2",
+   "had": "axloq, moral",
+   "repeat_level": "C1",
+   "repeat_had": "axloq, odob",
+   "now": "axloq, moral, odob"
+  },
+  {
+   "de": "Prinzip",
+   "level": "B2",
+   "had": "tamoyil, prinsip",
+   "repeat_level": "C1",
+   "repeat_had": "printsip, tamoyil",
+   "now": "tamoyil, prinsip, printsip"
+  },
+  {
+   "de": "vertreten",
+   "level": "B1",
+   "had": "oʻrnini bosmoq, vakillik qilmoq",
+   "repeat_level": "C1",
+   "repeat_had": "himoya qilmoq, ifodalamoq (fikrni)",
+   "now": "oʻrnini bosmoq, vakillik qilmoq, himoya qilmoq, ifodalamoq (fikrni)"
+  },
+  {
+   "de": "subjektiv",
+   "level": "B2",
+   "had": "subyektiv",
+   "repeat_level": "C1",
+   "repeat_had": "subʼektiv",
+   "now": "subyektiv, subʼektiv"
+  },
+  {
+   "de": "heilen",
+   "level": "B1",
+   "had": "davolamoq, tuzalmoq",
+   "repeat_level": "C1",
+   "repeat_had": "davolab tuzaltirmoq",
+   "now": "davolamoq, tuzalmoq, davolab tuzaltirmoq"
+  },
+  {
+   "de": "Vorsorge",
+   "level": "B1",
+   "had": "profilaktika",
+   "repeat_level": "C1",
+   "repeat_had": "profilaktika, ehtiyot chorasi",
+   "now": "profilaktika, ehtiyot chorasi"
+  },
+  {
+   "de": "Immunsystem",
+   "level": "B2",
+   "had": "immun tizimi",
+   "repeat_level": "C1",
+   "repeat_had": "immunitet tizimi",
+   "now": "immun tizimi, immunitet tizimi"
+  },
+  {
+   "de": "Durchbruch",
+   "level": "B2",
+   "had": "yutuq, keskin siljish",
+   "repeat_level": "C1",
+   "repeat_had": "yutuq, tub burilish",
+   "now": "yutuq, keskin siljish, tub burilish"
+  },
+  {
+   "de": "Prognose",
+   "level": "B2",
+   "had": "kasallik prognozi",
+   "repeat_level": "C1",
+   "repeat_had": "bashorat",
+   "now": "kasallik prognozi, bashorat"
+  },
+  {
+   "de": "Wandel",
+   "level": "B2",
+   "had": "tub oʻzgarish",
+   "repeat_level": "C1",
+   "repeat_had": "oʻzgarish, tub oʻzgarish",
+   "now": "tub oʻzgarish, oʻzgarish"
+  },
+  {
+   "de": "veranschaulichen",
+   "level": "B2",
+   "had": "tasvirlab bermoq, yaqqol koʻrsatmoq",
+   "repeat_level": "C1",
+   "repeat_had": "koʻrgazmali qilib tushuntirmoq",
+   "now": "tasvirlab bermoq, yaqqol koʻrsatmoq, koʻrgazmali qilib tushuntirmoq"
+  },
+  {
+   "de": "beruhen auf",
+   "level": "B2",
+   "had": "asoslanmoq",
+   "repeat_level": "C1",
+   "repeat_had": "...ga asoslanmoq",
+   "now": "asoslanmoq, ...ga asoslanmoq"
+  },
+  {
+   "de": "hervorrufen",
+   "level": "B2",
+   "had": "keltirib chiqarmoq",
+   "repeat_level": "C1",
+   "repeat_had": "keltirib chiqarmoq, sabab boʻlmoq",
+   "now": "keltirib chiqarmoq, sabab boʻlmoq"
+  },
+  {
+   "de": "beeinträchtigen",
+   "level": "B2",
+   "had": "salbiy taʼsir koʻrsatmoq, izdan chiqarmoq",
+   "repeat_level": "C1",
+   "repeat_had": "salbiy taʼsir koʻrsatmoq, zarar yetkazmoq",
+   "now": "salbiy taʼsir koʻrsatmoq, izdan chiqarmoq, zarar yetkazmoq"
+  },
+  {
+   "de": "eindämmen",
+   "level": "B2",
+   "had": "oldini olmoq, chegaralamoq",
+   "repeat_level": "C1",
+   "repeat_had": "jilovlamoq, cheklamoq",
+   "now": "oldini olmoq, chegaralamoq, jilovlamoq, cheklamoq"
+  },
+  {
+   "de": "fundiert",
+   "level": "B2",
+   "had": "asoslangan, puxta",
+   "repeat_level": "C1",
+   "repeat_had": "asosli, puxta",
+   "now": "asoslangan, puxta, asosli"
+  },
+  {
+   "de": "vielschichtig",
+   "level": "B2",
+   "had": "koʻp qatlamli",
+   "repeat_level": "C1",
+   "repeat_had": "koʻp qatlamli, murakkab",
+   "now": "koʻp qatlamli, murakkab"
+  },
+  {
+   "de": "Rücksicht nehmen auf",
+   "level": "B1",
+   "had": "hisobga olmoq, eʼtiborli boʻlmoq",
+   "repeat_level": "C1",
+   "repeat_had": "hisobga olmoq, eʼtiborga olmoq",
+   "now": "hisobga olmoq, eʼtiborli boʻlmoq, eʼtiborga olmoq"
+  },
+  {
+   "de": "etwas in Frage stellen",
+   "level": "B2",
+   "had": "biror narsani shubha ostiga qoʻymoq",
+   "repeat_level": "C1",
+   "repeat_had": "shubha ostiga qoʻymoq",
+   "now": "biror narsani shubha ostiga qoʻymoq, shubha ostiga qoʻymoq"
+  },
+  {
+   "de": "unter der Voraussetzung, dass",
+   "level": "B2",
+   "had": "shu shart bilanki",
+   "repeat_level": "C1",
+   "repeat_had": "shu shart bilan",
+   "now": "shu shart bilanki, shu shart bilan"
+  },
+  {
+   "de": "auf eigene Faust",
+   "level": "B1",
+   "had": "mustaqil ravishda, oʻz holicha (sayohat qilish)",
+   "repeat_level": "C1",
+   "repeat_had": "oʻz boshi bilan, mustaqil ravishda",
+   "now": "mustaqil ravishda, oʻz holicha (sayohat qilish), oʻz boshi bilan"
+  },
+  {
+   "de": "mit anderen Worten",
+   "level": "B2",
+   "had": "boshqacha qilib aytganda",
+   "repeat_level": "C1",
+   "repeat_had": "boshqacha aytganda",
+   "now": "boshqacha qilib aytganda, boshqacha aytganda"
+  },
+  {
+   "de": "Zusammenhang",
+   "level": "B2",
+   "had": "bogʻliqlik, aloqadorlik",
+   "repeat_level": "C1",
+   "repeat_had": "bogʻliqlik, aloqadorlik, kontekst",
+   "now": "bogʻliqlik, aloqadorlik, kontekst"
+  },
+  {
+   "de": "Argument",
+   "level": "B2",
+   "had": "dalil",
+   "repeat_level": "C1",
+   "repeat_had": "dalil, argument",
+   "now": "dalil, argument"
+  }
+ ]
+}

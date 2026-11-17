@@ -1,0 +1,75 @@
+name: CI and deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Jobs get read-only access; only the deploy job may publish to Pages.
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: Unit tests
+        run: uv run pytest -q
+        working-directory: pipeline
+      - name: Published data matches the pipeline output
+        run: |
+          uv run nemischa-build
+          git diff --exit-code -- ../data reports ids.json
+        working-directory: pipeline
+
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Build Anki decks
+        run: uv run nemischa-anki
+        working-directory: pipeline
+      - run: npm ci
+        working-directory: site
+      - name: Unit tests
+        run: npm test
+        working-directory: site
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+        working-directory: site
+      - name: Build and browser tests
+        run: npm run e2e
+        working-directory: site
+      - name: Hand the built site to the deploy job
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  # The site is published only after every test above has passed.
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [pipeline, site]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

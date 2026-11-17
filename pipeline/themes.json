@@ -1,0 +1,250 @@
+{
+ "A1": {
+  "1": {
+   "uz": "Shaxs va shaxsiy maʼlumotlar"
+  },
+  "2": {
+   "uz": "Oila va doʻstlar"
+  },
+  "3": {
+   "uz": "Tana va salomatlik"
+  },
+  "4": {
+   "uz": "Pochta, bank va idoralar"
+  },
+  "5": {
+   "uz": "Transport va yoʻl harakati"
+  },
+  "6": {
+   "uz": "Sayohat"
+  },
+  "7": {
+   "uz": "Oziq-ovqat va xarid"
+  },
+  "8": {
+   "uz": "Restoran va mehmondorchilik"
+  },
+  "9": {
+   "uz": "Muloqot va boʻsh vaqt"
+  },
+  "10": {
+   "uz": "Oʻqish va oʻrganish"
+  },
+  "11": {
+   "uz": "Ish va kasb"
+  },
+  "12": {
+   "uz": "Uy-joy"
+  },
+  "13": {
+   "uz": "Vaqt, soat va hafta"
+  },
+  "14": {
+   "uz": "Sana, fasllar va ob-havo"
+  },
+  "15": {
+   "uz": "Soʻzlar va grammatika"
+  },
+  "16": {
+   "uz": "Sonlar va oʻlchovlar"
+  }
+ },
+ "A2": {
+  "1": {
+   "uz": "Shaxs va kundalik hayot"
+  },
+  "2": {
+   "uz": "Oila va odamlar"
+  },
+  "3": {
+   "uz": "Tana, salomatlik va gigiyena"
+  },
+  "4": {
+   "uz": "Ovqat va ichimliklar"
+  },
+  "5": {
+   "uz": "Xarid va kiyim-kechak"
+  },
+  "6": {
+   "uz": "Uy-joy va roʻzgʻor"
+  },
+  "7": {
+   "uz": "Ish va kasb"
+  },
+  "8": {
+   "uz": "Maktab va oʻqish"
+  },
+  "9": {
+   "uz": "Boʻsh vaqt, xobbi va sport"
+  },
+  "10": {
+   "uz": "Sayohat va transport"
+  },
+  "11": {
+   "uz": "Tabiat, ob-havo va hayvonlar"
+  },
+  "12": {
+   "uz": "Media va muloqot"
+  },
+  "13": {
+   "uz": "Shahar, idoralar va xizmatlar"
+  },
+  "14": {
+   "uz": "His-tuygʻular va xarakter"
+  },
+  "15": {
+   "uz": "Vaqt, sana va bayramlar"
+  }
+ },
+ "B1": {
+  "1": {
+   "uz": "Shaxsiyat va munosabatlar"
+  },
+  "2": {
+   "uz": "Salomatlik va tibbiyot"
+  },
+  "3": {
+   "uz": "Ish va ishga ariza topshirish"
+  },
+  "4": {
+   "uz": "Taʼlim va oliy oʻqish"
+  },
+  "5": {
+   "uz": "Uy-joy va koʻchish"
+  },
+  "6": {
+   "uz": "Isteʼmol, pul va bank"
+  },
+  "7": {
+   "uz": "Sayohat va turizm"
+  },
+  "8": {
+   "uz": "Atrof-muhit va tabiat"
+  },
+  "9": {
+   "uz": "Media, internet va texnika"
+  },
+  "10": {
+   "uz": "Jamiyat va birga yashash"
+  },
+  "11": {
+   "uz": "Madaniyat, sanʼat va bayramlar"
+  },
+  "12": {
+   "uz": "Sport va boʻsh vaqt"
+  },
+  "13": {
+   "uz": "Ovqat va ovqatlanish"
+  },
+  "14": {
+   "uz": "Transport va harakatlanish"
+  },
+  "15": {
+   "uz": "His-tuygʻular va fikrlar"
+  },
+  "16": {
+   "uz": "Vaqt, jarayonlar va bogʻlovchilar"
+  }
+ },
+ "B2": {
+  "1": {
+   "uz": "Ish dunyosi va karyera"
+  },
+  "2": {
+   "uz": "Iqtisodiyot va moliya"
+  },
+  "3": {
+   "uz": "Taʼlim va fan"
+  },
+  "4": {
+   "uz": "Salomatlik va tibbiyot"
+  },
+  "5": {
+   "uz": "Atrof-muhit va barqaror rivojlanish"
+  },
+  "6": {
+   "uz": "Siyosat va jamiyat"
+  },
+  "7": {
+   "uz": "Media va raqamlashtirish"
+  },
+  "8": {
+   "uz": "Huquq va tartib"
+  },
+  "9": {
+   "uz": "Madaniyat va sanʼat"
+  },
+  "10": {
+   "uz": "Psixologiya va his-tuygʻular"
+  },
+  "11": {
+   "uz": "Til va muloqot"
+  },
+  "12": {
+   "uz": "Migratsiya va globallashuv"
+  },
+  "13": {
+   "uz": "Texnika va innovatsiya"
+  },
+  "14": {
+   "uz": "Qadriyatlar, etika va fikr"
+  },
+  "15": {
+   "uz": "Mavhum otlar va jarayonlar"
+  },
+  "16": {
+   "uz": "Bogʻlovchilar va nutq iboralari"
+  }
+ },
+ "C1": {
+  "1": {
+   "uz": "Fan va tadqiqot"
+  },
+  "2": {
+   "uz": "Iqtisodiyot va globallashuv"
+  },
+  "3": {
+   "uz": "Siyosat, huquq va davlat"
+  },
+  "4": {
+   "uz": "Jamiyat va ijtimoiy mavzular"
+  },
+  "5": {
+   "uz": "Atrof-muhit va iqlim"
+  },
+  "6": {
+   "uz": "Taʼlim va mehnat bozori"
+  },
+  "7": {
+   "uz": "Media va jamoatchilik"
+  },
+  "8": {
+   "uz": "Madaniyat, adabiyot va sanʼat"
+  },
+  "9": {
+   "uz": "Psixologiya va xulq-atvor"
+  },
+  "10": {
+   "uz": "Falsafa va etika"
+  },
+  "11": {
+   "uz": "Salomatlik va fan"
+  },
+  "12": {
+   "uz": "Texnologiya va kelajak"
+  },
+  "13": {
+   "de": "Gehobene Verben & Adjektive",
+   "uz": "Yuqori uslubdagi feʼl va sifatlar"
+  },
+  "14": {
+   "uz": "Birikmalar va turgʻun iboralar"
+  },
+  "15": {
+   "uz": "Otlashgan uslub va feʼlli birikmalar"
+  },
+  "16": {
+   "uz": "Bogʻlovchilar va matn tuzilishi"
+  }
+ }
+}

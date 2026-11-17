@@ -1,0 +1,119 @@
+---
+import Crumbs from '../../components/Crumbs.astro';
+import Base from '../../layouts/Base.astro';
+import { articleClass, fullWord, pluralLabel } from '../../lib/format';
+import { href, reportUrl } from '../../lib/site';
+import type { Entry, Level, Theme } from '../../lib/types';
+import { POS_NAMES, fill, t } from '../../lib/uz';
+import { getLevels, themeSlug } from '../../lib/vocab';
+
+export function getStaticPaths() {
+  return getLevels().flatMap((data) =>
+    data.themes.flatMap((theme) =>
+      theme.entries.map((entry, index) => ({
+        params: { id: entry.id },
+        props: {
+          entry,
+          level: data.level,
+          theme,
+          previous: theme.entries[index - 1],
+          next: theme.entries[index + 1],
+        },
+      })),
+    ),
+  );
+}
+
+interface Props {
+  entry: Entry;
+  level: Level;
+  theme: Theme;
+  previous?: Entry;
+  next?: Entry;
+}
+
+const { entry, level, theme, previous, next } = Astro.props;
+const word = fullWord(entry);
+const themePath = `/${level.toLowerCase()}/${themeSlug(theme)}/`;
+const plural = pluralLabel(entry);
+// "<" is escaped so that no dictionary text can ever close the script element.
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTerm',
+  name: word,
+  description: entry.uz,
+  inLanguage: 'de',
+  inDefinedTermSet: new URL(href('/'), Astro.site).href,
+}).replace(/</g, '\\u003c');
+---
+
+<Base
+  title={fill(t.word.title, { word, uz: entry.uz })}
+  description={fill(t.word.description, { word, uz: entry.uz })}
+>
+  <script slot="head" type="application/ld+json" is:inline set:html={jsonLd} />
+  <Crumbs
+    trail={[
+      { label: level, path: `/${level.toLowerCase()}/` },
+      { label: theme.uz, path: themePath },
+      { label: entry.de },
+    ]}
+  />
+
+  <div class="word-hero">
+    {entry.emoji && <span class="emoji" aria-hidden="true">{entry.emoji}</span>}
+    <h1 lang="de">
+      {entry.article && <span class={`art ${articleClass(entry.article)}`}>{entry.article}</span>}
+      {' '}{entry.de}
+    </h1>
+    <button class="icon-btn" type="button" data-speak={word} aria-label={t.word.listen} hidden>🔊</button>
+  </div>
+  <p class="word-meaning">{entry.uz}</p>
+
+  <dl class="facts">
+    {entry.article && (
+      <>
+        <dt>{t.word.article}</dt>
+        <dd lang="de"><span class={`art ${articleClass(entry.article)}`}>{entry.article}</span></dd>
+      </>
+    )}
+    {plural && (
+      <>
+        <dt>{t.word.plural}</dt>
+        <dd>{plural}</dd>
+      </>
+    )}
+    <dt>{t.word.pronunciation}</dt>
+    <dd>{entry.uz_respell} <span class="ipa">[{entry.ipa}]</span></dd>
+    <dt>{t.word.pos}</dt>
+    <dd>{POS_NAMES[entry.pos]}</dd>
+    {entry.en && (
+      <>
+        <dt>{t.word.english}</dt>
+        <dd lang="en">{entry.en}</dd>
+      </>
+    )}
+    <dt>{t.word.level}</dt>
+    <dd><a href={href(`/${level.toLowerCase()}/`)}>{level}</a></dd>
+    <dt>{t.word.theme}</dt>
+    <dd><a href={href(themePath)}>{theme.uz}</a></dd>
+  </dl>
+
+  <div class="btn-row">
+    <a class="btn" href={href(`/mashq/?level=${level}&theme=${theme.n}`)}>{t.theme.practice}</a>
+    <a class="btn btn-ghost" href={reportUrl(word)} rel="noopener nofollow">{t.word.report}</a>
+  </div>
+
+  <nav class="pager" aria-label={t.word.theme}>
+    {previous ? (
+      <a href={href(`/soz/${previous.id}/`)}><span>← {t.word.previous}</span>{fullWord(previous)}</a>
+    ) : <span />}
+    {next && (
+      <a href={href(`/soz/${next.id}/`)} style="text-align:right"><span>{t.word.next} →</span>{fullWord(next)}</a>
+    )}
+  </nav>
+</Base>
+
+<script>
+  import '../../client/speak-buttons';
+</script>

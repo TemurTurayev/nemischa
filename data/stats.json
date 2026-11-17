@@ -1,0 +1,23 @@
+{
+ "total": 3763,
+ "by_level": {
+  "A1": 948,
+  "A2": 574,
+  "B1": 835,
+  "B2": 798,
+  "C1": 608
+ },
+ "by_pos": {
+  "noun": 2044,
+  "verb": 657,
+  "adjective": 456,
+  "phrase": 364,
+  "adverb": 109,
+  "number": 53,
+  "preposition": 32,
+  "conjunction": 23,
+  "pronoun": 19,
+  "other": 6
+ },
+ "nouns_with_plural_form": 1607
+}

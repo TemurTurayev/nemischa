@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import { REPO_URL } from '../lib/site';
+import { t } from '../lib/uz';
+---
+
+<Base title={`${t.about.title} | ${t.site.name}`} description={t.about.intro}>
+  <div class="prose">
+    <h1>{t.about.title}</h1>
+    <p>{t.about.intro}</p>
+
+    <h2>{t.about.dataTitle}</h2>
+    <p>{t.about.data1}</p>
+    <p>{t.about.data2}</p>
+    <p>{t.about.data3}</p>
+
+    <h2>{t.about.licenseTitle}</h2>
+    <p>{t.about.license}</p>
+
+    <h2>{t.about.privacyTitle}</h2>
+    <p>{t.about.privacy}</p>
+
+    <h2>{t.about.sourceTitle}</h2>
+    <p>{t.about.source} <a href={REPO_URL} rel="noopener">github.com/TemurTurayev/nemischa</a></p>
+  </div>
+</Base>

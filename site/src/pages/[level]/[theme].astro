@@ -1,0 +1,40 @@
+---
+import Crumbs from '../../components/Crumbs.astro';
+import WordList from '../../components/WordList.astro';
+import Base from '../../layouts/Base.astro';
+import { href } from '../../lib/site';
+import type { Level, Theme } from '../../lib/types';
+import { fill, t } from '../../lib/uz';
+import { getLevels, themeSlug } from '../../lib/vocab';
+
+export function getStaticPaths() {
+  return getLevels().flatMap((data) =>
+    data.themes.map((theme) => ({
+      params: { level: data.level.toLowerCase(), theme: themeSlug(theme) },
+      props: { level: data.level, theme },
+    })),
+  );
+}
+
+interface Props {
+  level: Level;
+  theme: Theme;
+}
+
+const { level, theme } = Astro.props;
+---
+
+<Base
+  title={`${theme.uz} — ${level} | ${t.site.name}`}
+  description={fill(t.theme.description, { title: theme.uz, level })}
+>
+  <Crumbs trail={[{ label: level, path: `/${level.toLowerCase()}/` }, { label: theme.uz }]} />
+  <h1>{theme.uz}</h1>
+  <p class="muted">
+    <span lang="de">{theme.de}</span> · {level} · {fill(t.count.words, { n: theme.entries.length })}
+  </p>
+  <div class="btn-row">
+    <a class="btn" href={href(`/mashq/?level=${level}&theme=${theme.n}`)}>{t.theme.practice}</a>
+  </div>
+  <WordList entries={theme.entries} />
+</Base>

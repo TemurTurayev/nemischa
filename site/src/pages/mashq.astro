@@ -1,0 +1,19 @@
+---
+import '../styles/trainer.css';
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/site';
+import { t } from '../lib/uz';
+---
+
+<Base title={`${t.trainer.title} | ${t.site.name}`} description={t.trainer.intro}>
+  <h1>{t.trainer.title}</h1>
+  <p class="muted">{t.trainer.intro}</p>
+  <div id="trainer" data-data-base={href('/data/')}>
+    <p class="muted">{t.trainer.loading}</p>
+  </div>
+  <p id="trainer-status" class="sr-only" role="status" aria-live="polite"></p>
+</Base>
+
+<script>
+  import '../trainer/app';
+</script>

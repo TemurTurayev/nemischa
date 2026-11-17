@@ -1,0 +1,53 @@
+---
+import { existsSync, statSync } from 'node:fs';
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import { formatCount } from '../lib/format';
+import { ANKI_URL, href } from '../lib/site';
+import { fill, t } from '../lib/uz';
+import { countEntries, getLevels } from '../lib/vocab';
+
+const BYTES_PER_KB = 1024;
+const deckDir = path.resolve(process.cwd(), 'public', 'anki');
+
+// Only decks that were actually built are offered for download.
+const decks = getLevels().flatMap((data) => {
+  const file = `nemischa-${data.level.toLowerCase()}.apkg`;
+  const fullPath = path.join(deckDir, file);
+  if (!existsSync(fullPath)) return [];
+  return [{
+    level: data.level,
+    words: countEntries(data),
+    url: href(`/anki/${file}`),
+    sizeKb: Math.round(statSync(fullPath).size / BYTES_PER_KB),
+  }];
+});
+---
+
+<Base title={`${t.anki.title} | ${t.site.name}`} description={t.anki.intro}>
+  <div class="prose">
+    <h1>{t.anki.title}</h1>
+    <p>{t.anki.intro}</p>
+    <p class="muted">{t.anki.cards}</p>
+
+    <ul class="download-list">
+      {
+        decks.map((deck) => (
+          <li>
+            <a href={deck.url} download>
+              <strong>{deck.level} — {fill(t.count.words, { n: formatCount(deck.words) })}</strong>
+              <span class="muted">{t.anki.download} · {deck.sizeKb} KB</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <h2>{t.anki.howTitle}</h2>
+    <ol>
+      <li>{t.anki.step1} <a href={ANKI_URL} rel="noopener">apps.ankiweb.net</a></li>
+      <li>{t.anki.step2}</li>
+      <li>{t.anki.step3}</li>
+    </ol>
+  </div>
+</Base>

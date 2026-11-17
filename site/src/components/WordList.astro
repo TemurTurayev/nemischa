@@ -1,0 +1,32 @@
+---
+import { articleClass, pluralLabel } from '../lib/format';
+import { href } from '../lib/site';
+import type { Entry } from '../lib/types';
+
+interface Props {
+  entries: readonly Entry[];
+}
+
+const { entries } = Astro.props;
+---
+
+<ul class="word-list">
+  {
+    entries.map((entry) => {
+      const extra = [pluralLabel(entry), entry.uz_respell].filter(Boolean).join(' · ');
+      return (
+        <li>
+          <a class="word-row" href={href(`/soz/${entry.id}/`)}>
+            <span class="word-emoji" aria-hidden="true">{entry.emoji}</span>
+            <span class="word-de" lang="de">
+              {entry.article && <span class={`art ${articleClass(entry.article)}`}>{entry.article}</span>}
+              {' '}{entry.de}
+              {extra && <span class="word-extra" lang="uz">{extra}</span>}
+            </span>
+            <span class="word-uz">{entry.uz}</span>
+          </a>
+        </li>
+      );
+    })
+  }
+</ul>

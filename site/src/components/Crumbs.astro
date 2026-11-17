@@ -1,0 +1,26 @@
+---
+import { href } from '../lib/site';
+import { t } from '../lib/uz';
+
+interface Crumb {
+  label: string;
+  path?: string;
+}
+
+interface Props {
+  trail: Crumb[];
+}
+
+const { trail } = Astro.props;
+const crumbs: Crumb[] = [{ label: t.nav.home, path: '/' }, ...trail];
+---
+
+<nav aria-label="breadcrumb">
+  <ol class="crumbs">
+    {
+      crumbs.map((crumb) => (
+        <li>{crumb.path ? <a href={href(crumb.path)}>{crumb.label}</a> : <span>{crumb.label}</span>}</li>
+      ))
+    }
+  </ol>
+</nav>

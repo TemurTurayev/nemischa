@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/site';
+import { t } from '../lib/uz';
+---
+
+<Base title={`${t.notFound.title} | ${t.site.name}`}>
+  <h1>{t.notFound.title}</h1>
+  <p class="muted">{t.notFound.text}</p>
+  <div class="btn-row">
+    <a class="btn" href={href('/')}>{t.notFound.home}</a>
+  </div>
+</Base>

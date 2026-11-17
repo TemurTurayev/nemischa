@@ -1,0 +1,561 @@
+{
+ "fixes": [
+  {
+   "match": {
+    "level": "A1",
+    "de": "Deutsche",
+    "article": "der"
+   },
+   "set": {
+    "article": "der/die",
+    "uz": "nemis (erkak yoki ayol)",
+    "en": "German (person)"
+   },
+   "why": "one entry for the nominalised adjective, like der/die Angestellte"
+  },
+  {
+   "match": {
+    "de": "Euro"
+   },
+   "set": {
+    "article": "der",
+    "plural": "-s"
+   },
+   "why": "article and plural were missing"
+  },
+  {
+   "match": {
+    "de": "Cent"
+   },
+   "set": {
+    "article": "der",
+    "plural": "-s"
+   },
+   "why": "article and plural were missing"
+  },
+  {
+   "match": {
+    "level": "A1",
+    "de": "Weihnachten"
+   },
+   "set": {
+    "article": "das",
+    "plural": "Sg."
+   },
+   "why": "article was missing"
+  },
+  {
+   "match": {
+    "level": "A1",
+    "de": "Ostern"
+   },
+   "set": {
+    "article": "das",
+    "plural": "Sg."
+   },
+   "why": "article was missing"
+  },
+  {
+   "match": {
+    "de": "Umweltschützer"
+   },
+   "set": {
+    "article": "der",
+    "plural": "-"
+   },
+   "why": "masculine noun; the feminine is Umweltschützerin"
+  },
+  {
+   "match": {
+    "de": "Angestellte"
+   },
+   "set": {
+    "plural": "-n"
+   },
+   "why": "-en produced Angestellteen"
+  },
+  {
+   "match": {
+    "de": "Paprika"
+   },
+   "set": {
+    "plural": "-"
+   },
+   "why": "reference plural is Paprika"
+  },
+  {
+   "match": {
+    "de": "Gramm"
+   },
+   "set": {
+    "plural": "-e"
+   },
+   "why": "dictionary plural is Gramme"
+  },
+  {
+   "match": {
+    "de": "Pfund"
+   },
+   "set": {
+    "plural": "-e"
+   },
+   "why": "dictionary plural is Pfunde"
+  },
+  {
+   "match": {
+    "de": "Prozent"
+   },
+   "set": {
+    "plural": "-e"
+   },
+   "why": "dictionary plural is Prozente"
+  },
+  {
+   "match": {
+    "de": "Gymnasium"
+   },
+   "set": {
+    "plural": "Gymnasien"
+   },
+   "why": "-en produced Gymnasiumen"
+  },
+  {
+   "match": {
+    "de": "Stipendium",
+    "plural": "-ien"
+   },
+   "set": {
+    "plural": "Stipendien"
+   },
+   "why": "-ien produced Stipendiumien"
+  },
+  {
+   "match": {
+    "de": "Mindesthaltbarkeitsdatum"
+   },
+   "set": {
+    "plural": "Mindesthaltbarkeitsdaten"
+   },
+   "why": "irregular -um/-en plural"
+  },
+  {
+   "match": {
+    "de": "Trauma"
+   },
+   "set": {
+    "plural": "Traumata"
+   },
+   "why": "marker held the text 'Pl. Traumata'"
+  },
+  {
+   "match": {
+    "de": "Algorithmus"
+   },
+   "set": {
+    "plural": "Algorithmen"
+   },
+   "why": "irregular -us/-en plural"
+  },
+  {
+   "match": {
+    "de": "Umzugsfirma"
+   },
+   "set": {
+    "plural": "Umzugsfirmen"
+   },
+   "why": "irregular -a/-en plural"
+  },
+  {
+   "match": {
+    "de": "Master"
+   },
+   "set": {
+    "plural": "-"
+   },
+   "why": "reference plural is Master"
+  },
+  {
+   "match": {
+    "de": "Kabarett"
+   },
+   "set": {
+    "plural": "-s/-e"
+   },
+   "why": "both Kabaretts and Kabarette are used"
+  },
+  {
+   "match": {
+    "de": "Bankkauffrau"
+   },
+   "set": {
+    "plural": "-en"
+   },
+   "why": "plural is Bankkauffrauen"
+  },
+  {
+   "match": {
+    "de": "Global Player"
+   },
+   "set": {
+    "plural": "-"
+   },
+   "why": "reference plural is Global Player"
+  },
+  {
+   "match": {
+    "de": "BIC (Business Identifier Code)"
+   },
+   "set": {
+    "de": "BIC",
+    "article": "der",
+    "plural": "-s"
+   },
+   "why": "headword carried an explanation"
+  },
+  {
+   "match": {
+    "de": "Kontonummer (IBAN = International Bank Account Number)"
+   },
+   "set": {
+    "de": "Kontonummer",
+    "uz": "hisob raqami",
+    "en": "account number"
+   },
+   "why": "headword carried an explanation"
+  },
+  {
+   "match": {
+    "de": "(Kredit-)Karte"
+   },
+   "set": {
+    "de": "Kreditkarte",
+    "uz": "kredit karta",
+    "en": "credit card"
+   },
+   "why": "optional part in headword"
+  },
+  {
+   "match": {
+    "de": "(E-)Mail"
+   },
+   "set": {
+    "de": "E-Mail"
+   },
+   "why": "optional part in headword"
+  },
+  {
+   "match": {
+    "de": "(drei) Uhr"
+   },
+   "set": {
+    "pos": "phrase"
+   },
+   "why": "a pattern, not a noun entry"
+  },
+  {
+   "match": {
+    "de": "Damen/Herren"
+   },
+   "set": {
+    "pos": "phrase"
+   },
+   "why": "door sign, not a single noun"
+  },
+  {
+   "match": {
+    "de": "Grad (Celsius)"
+   },
+   "set": {
+    "de": "Grad",
+    "article": "der",
+    "plural": "-e",
+    "en": "degree"
+   },
+   "why": "headword carried an explanation"
+  },
+  {
+   "match": {
+    "de": "Kilo(gramm)"
+   },
+   "set": {
+    "de": "Kilogramm",
+    "en": "kilogram",
+    "plural": "-e"
+   },
+   "why": "optional part in headword; dictionary plural is Kilogramme"
+  },
+  {
+   "match": {
+    "de": "Partner/Partnerin"
+   },
+   "set": {
+    "de": "Partner",
+    "article": "der",
+    "plural": "-"
+   },
+   "why": "two words in one headword"
+  },
+  {
+   "match": {
+    "de": "Pfleger/Pflegerin"
+   },
+   "set": {
+    "de": "Pfleger",
+    "article": "der",
+    "plural": "-",
+    "uz": "parvarishchi, hamshira"
+   },
+   "why": "two words in one headword"
+  },
+  {
+   "match": {
+    "de": "Therapeut/Therapeutin"
+   },
+   "set": {
+    "de": "Therapeut",
+    "article": "der",
+    "plural": "-en"
+   },
+   "why": "two words in one headword"
+  },
+  {
+   "match": {
+    "de": "Deutschland",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Europa",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Januar",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Februar",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "März",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "April",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Mai",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Juni",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Juli",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "August",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "September",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Oktober",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "November",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Dezember",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Mitternacht",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Karneval",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "Twitter",
+    "pos": "noun"
+   },
+   "set": {
+    "plural": "Sg."
+   },
+   "why": "used in the singular; the dictionary plural would only confuse learners"
+  },
+  {
+   "match": {
+    "de": "gebrochen",
+    "uz": "sinngan"
+   },
+   "set": {
+    "uz": "singan"
+   },
+   "why": "typo in the Uzbek translation"
+  },
+  {
+   "match": {
+    "de": "Leder",
+    "uz": "teri"
+   },
+   "set": {
+    "uz": "charm"
+   },
+   "why": "teri is skin; leather as a material is charm"
+  }
+ ],
+ "drops": [
+  {
+   "match": {
+    "level": "A1",
+    "de": "Deutsche",
+    "article": "die"
+   },
+   "why": "merged into der/die Deutsche"
+  },
+  {
+   "match": {
+    "level": "A1",
+    "de": "Deutsche",
+    "article": ""
+   },
+   "why": "merged into der/die Deutsche"
+  },
+  {
+   "match": {
+    "level": "A1",
+    "de": "Deutscher"
+   },
+   "why": "merged into der/die Deutsche"
+  },
+  {
+   "match": {
+    "level": "B1",
+    "de": "Lebensmittel",
+    "article": "das"
+   },
+   "why": "already taught at A1 as die Lebensmittel (Pl.)"
+  },
+  {
+   "match": {
+    "level": "B2",
+    "de": "soziale Medien",
+    "article": ""
+   },
+   "why": "repeat of the B1 entry"
+  },
+  {
+   "match": {
+    "level": "C1",
+    "de": "künstliche Intelligenz",
+    "article": ""
+   },
+   "why": "repeat of the B1 entry"
+  }
+ ]
+}

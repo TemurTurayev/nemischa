@@ -1,0 +1,18 @@
+Nemischa German–Uzbek vocabulary dataset
+Copyright (c) 2026 Temur Turayev
+
+The files in this directory (and the raw lists in pipeline/raw) are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+  Summary:    https://creativecommons.org/licenses/by-sa/4.0/
+  Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You may copy, share and adapt the data, including commercially, as long as you
+credit "Nemischa (https://github.com/TemurTurayev/nemischa)" and release your
+adapted data under the same license.
+
+Noun genders and plural forms were checked against Wiktionary
+(https://de.wiktionary.org, CC BY-SA 3.0) through the german-nouns package
+(https://github.com/gambolputty/german-nouns); a small number of plural forms
+were taken from it.
